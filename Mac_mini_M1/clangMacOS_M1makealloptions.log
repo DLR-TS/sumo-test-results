@@ -1,0 +1,1666 @@
+-- The CXX compiler identification is AppleClang 17.0.0.17000404
+-- The C compiler identification is AppleClang 17.0.0.17000404
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BINARY_DIR: /Users/sumo/clangMacOS_M1/sumo/build/debug-clangMacOS_M1
+-- CMAKE_SOURCE_DIR: /Users/sumo/clangMacOS_M1/sumo
+-- 
+-- Platform: 
+--     Host: Darwin-25.1.0 arm64
+--     Target: Darwin-25.1.0 arm64
+--     CMake: 4.1.2
+--     CMake generator: Unix Makefiles
+--     CMake build tool: /usr/bin/make
+--     Compiler: AppleClang 17.0.0.17000404
+-- 
+-- Found Python: /Users/sumo/clangMacOS_M1/sumo_test_env/bin/python3.13 (found version "3.13.9") found components: Interpreter Development Development.Module Development.Embed
+-- Found Python: /Users/sumo/clangMacOS_M1/sumo_test_env/bin/python3.13
+-- Brew detected: /opt/homebrew
+-- Using JuPedSim from /Users/sumo/clangMacOS_M1/sumo/../jupedsim-install
+-- Found GTest: /opt/homebrew/lib/cmake/GTest/GTestConfig.cmake (found version "1.17.0")
+-- Found XercesC: /opt/homebrew/lib/libxerces-c.dylib (found version "3.3.0")
+-- Found Proj: /opt/homebrew/lib/libproj.dylib
+-- Found Fox: -I/opt/homebrew/Cellar/fox/1.6.59/include/fox-1.6 -L/opt/homebrew/Cellar/fox/1.6.59/lib -lFOX-1.6 -lX11 -lXext -lfreetype -lfontconfig -lXft -lXcursor -lXrender -lXrandr -lXfixes -lXi -ldl -lpthread -ljpeg -lpng -ltiff -lz -lbz2 -lGLU -lGL
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
+-- Found Freetype: /opt/homebrew/lib/libfreetype.dylib (found version "2.14.1")
+-- Found X11: /opt/homebrew/include
+-- Looking for XOpenDisplay in /opt/homebrew/lib/libX11.dylib;/opt/homebrew/lib/libXext.dylib
+-- Looking for XOpenDisplay in /opt/homebrew/lib/libX11.dylib;/opt/homebrew/lib/libXext.dylib - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Found Intl: /opt/homebrew/lib/libintl.dylib (found version "0.26.0")
+-- Found SWIG: /opt/homebrew/bin/swig (found suitable version "4.4.0", minimum required is "3.0.12")
+-- Checking for modules 'libbrotlicommon;libbrotlienc;libbrotlidec'
+--   Found libbrotlicommon, version 1.2.0
+--   Found libbrotlienc, version 1.2.0
+--   Found libbrotlidec, version 1.2.0
+-- Found BrotliAlt: /opt/homebrew/Cellar/brotli/1.2.0/lib/libbrotlicommon.dylib
+-- Found OpenSSL: /opt/homebrew/opt/openssl@3/lib/libcrypto.dylib (found version "3.6.0")
+-- Checking for module 'liblz4'
+--   Found liblz4, version 1.10.0
+-- Found BZip2: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libbz2.tbd (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found utf8proc: /opt/homebrew/lib/libutf8proc.dylib (found version "2.11.1")
+-- Found AWS SDK for C++, Version: 1.11.690, Install Root:/opt/homebrew, Platform Prefix:, Platform Dependent Libraries: pthread;curl
+-- Components specified for AWSSDK: config;s3;transfer;identity-management;sts, application will be depending on libs: aws-cpp-sdk-config;aws-cpp-sdk-transfer;aws-cpp-sdk-identity-management;aws-cpp-sdk-cognito-identity;aws-cpp-sdk-sts;aws-cpp-sdk-s3;aws-cpp-sdk-core
+-- Try finding aws-cpp-sdk-core
+-- Found Threads: TRUE
+-- Found aws-cpp-sdk-core
+-- Try finding aws-cpp-sdk-s3
+-- Found aws-cpp-sdk-s3
+-- Try finding aws-cpp-sdk-sts
+-- Found aws-cpp-sdk-sts
+-- Try finding aws-cpp-sdk-cognito-identity
+-- Found aws-cpp-sdk-cognito-identity
+-- Try finding aws-cpp-sdk-identity-management
+-- Found aws-cpp-sdk-identity-management
+-- Try finding aws-cpp-sdk-transfer
+-- Found aws-cpp-sdk-transfer
+-- Try finding aws-cpp-sdk-config
+-- Found aws-cpp-sdk-config
+-- Arrow version: 21.0.0
+-- Found the Arrow shared library: /opt/homebrew/lib/libarrow.2100.0.0.dylib
+-- Found the Arrow import library: ARROW_IMPORT_LIB-NOTFOUND
+-- Found the Arrow static library: /opt/homebrew/lib/libarrow.a
+-- Checking for module 'thrift'
+--   Found thrift, version 0.22.0
+-- Parquet version: 21.0.0
+-- Found the Parquet shared library: /opt/homebrew/lib/libparquet.2100.0.0.dylib
+-- Found the Parquet import library: PARQUET_IMPORT_LIB-NOTFOUND
+-- Found the Parquet static library: /opt/homebrew/lib/libparquet.a
+-- Eigen3 version .. found in /opt/homebrew/include/eigen3, but at least version 3.2 is required
+-- Could NOT find Eigen3 (missing: EIGEN3_VERSION_OK) (Required is at least version "3.2")
+-- Found GDAL: /opt/homebrew/Cellar/gdal/3.12.0/lib/libgdal.dylib (found version "3.12.0")
+-- Found osgGA: /opt/homebrew/lib/libosgGA.dylib
+-- Found osgViewer: /opt/homebrew/lib/libosgViewer.dylib
+-- Found osgUtil: /opt/homebrew/lib/libosgUtil.dylib
+-- Found osgDB: /opt/homebrew/lib/libosgDB.dylib
+-- Found osgText: /opt/homebrew/lib/libosgText.dylib
+-- Found osg: /opt/homebrew/lib/libosg.dylib
+-- Found OpenThreads: /opt/homebrew/lib/libOpenThreads.dylib
+-- Found OpenSceneGraph: /opt/homebrew/lib/libosgGA.dylib;/opt/homebrew/lib/libosgViewer.dylib;/opt/homebrew/lib/libosgUtil.dylib;/opt/homebrew/lib/libosgDB.dylib;/opt/homebrew/lib/libosgText.dylib;/opt/homebrew/lib/libosg.dylib;/opt/homebrew/lib/libOpenThreads.dylib (found suitable version "3.6.5", minimum required is "3.4.0")
+-- Found GL2PS: /opt/homebrew/lib/libgl2ps.dylib
+-- Found JuPedSim: /Users/sumo/clangMacOS_M1/jupedsim-install/lib/cmake/jupedsim 1.2.1
+-- Boost headers, filesystem and process 1.89.0 found, enabling stacktrace support
+-- Found Gettext: /opt/homebrew/bin/msgmerge (found version "0.26")
+-- Found Java: /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/bin/java (found version "25.0.1") found components: Development
+-- Found Java: /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/bin/java (found version "25.0.1")
+-- Found JNI: /opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/include  found components: AWT JVM
+-- Found Git: /usr/bin/git (found version "2.50.1 (Apple Git-155)")
+-- Enabled features: Darwin-25.1.0 arm64 AppleClang 17.0.0.17000404 Debug FMI Proj GUI Intl SWIG Parquet GDAL FFmpeg OSG GL2PS JuPedSim
+-- Configuring done (18.4s)
+-- Generating done (1.9s)
+-- Build files have been written to: /Users/sumo/clangMacOS_M1/sumo/build/debug-clangMacOS_M1
+[  1%] Building CXX object src/foreign/PHEMlight/V5/cpp/CMakeFiles/foreign_phemlight_V5.dir/CEP.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/V5/cpp/CMakeFiles/foreign_phemlight_V5.dir/CEPHandler.cpp.o
+[  1%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLSState.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/cpp/CMakeFiles/foreign_phemlight.dir/CEP.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/V5/cpp/CMakeFiles/foreign_phemlight_V5.dir/Constants.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/cpp/CMakeFiles/foreign_phemlight.dir/CEPHandler.cpp.o
+[  1%] Generating version.h
+[  1%] Building CXX object src/foreign/PHEMlight/V5/cpp/CMakeFiles/foreign_phemlight_V5.dir/Correction.cpp.o
+[  1%] Building CXX object src/foreign/tcpip/CMakeFiles/foreign_tcpip.dir/socket.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/cpp/CMakeFiles/foreign_phemlight.dir/Helpers.cpp.o
+[  1%] Building CXX object src/foreign/PHEMlight/cpp/CMakeFiles/foreign_phemlight.dir/Constants.cpp.o
+[  1%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLSProgram.cpp.o
+[  1%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/MEInductLoop.cpp.o
+[  1%] Building CXX object src/microsim/engine/CMakeFiles/microsim_engine.dir/EngineParameters.cpp.o
+[  1%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLSSwitchStates.cpp.o
+[  1%] Building CXX object src/foreign/tcpip/CMakeFiles/foreign_tcpip.dir/storage.cpp.o
+[  1%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel.cpp.o
+[  1%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/MELoop.cpp.o
+[  1%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSDetectorControl.cpp.o
+[  1%] Built target install_dll
+[  2%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLSSwitches.cpp.o
+[  2%] Building CXX object src/foreign/PHEMlight/V5/cpp/CMakeFiles/foreign_phemlight_V5.dir/Helpers.cpp.o
+[  3%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSCalibrator.cpp.o
+[  3%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPerson.cpp.o
+[  3%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLCoupledLaneDet.cpp.o
+[  3%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/CommonXMLStructure.cpp.o
+[  3%] Building CXX object src/netload/CMakeFiles/netload.dir/NLDetectorBuilder.cpp.o
+[  3%] Building CXX object src/utils/distribution/CMakeFiles/utils_distribution.dir/Distribution_Parameterized.cpp.o
+[  3%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSAbstractLaneChangeModel.cpp.o
+[  3%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice.cpp.o
+[  3%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/FileHelpers.cpp.o
+[  3%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSActuatedTrafficLightLogic.cpp.o
+[  3%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/CharacteristicMap.cpp.o
+generating /Users/sumo/clangMacOS_M1/sumo/build/debug-clangMacOS_M1/src/version.h from revision in /Users/sumo/clangMacOS_M1/sumo/.git/index
+[  3%] Built target generate-version-h
+[  3%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_Daniel1.cpp.o
+[  3%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPModel.cpp.o
+[  3%] Building CXX object src/utils/distribution/CMakeFiles/utils_distribution.dir/Distribution_Points.cpp.o
+[  3%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSLCHelper.cpp.o
+[  4%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSDelayBasedTrafficLightLogic.cpp.o
+[  4%] Building CXX object src/microsim/engine/CMakeFiles/microsim_engine.dir/FirstOrderLagModel.cpp.o
+[  4%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/EnergyParams.cpp.o
+[  4%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/MESegment.cpp.o
+[  4%] Linking CXX static library libforeign_tcpip.a
+[  4%] Built target foreign_tcpip
+[  4%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_IDM.cpp.o
+[  4%] Building CXX object src/utils/distribution/CMakeFiles/utils_distribution.dir/DistributionCont.cpp.o
+[  4%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_SSM.cpp.o
+[  4%] Linking CXX static library libforeign_phemlight.a
+[  4%] Built target foreign_phemlight
+[  4%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSLCM_DK2008.cpp.o
+[  4%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersEnergy.cpp.o
+[  4%] Building CXX object src/microsim/engine/CMakeFiles/microsim_engine.dir/GenericEngineModel.cpp.o
+[  4%] Building CXX object src/microsim/actions/CMakeFiles/microsim_actions.dir/Command_SaveTLCoupledDet.cpp.o
+[  4%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_DriverState.cpp.o
+[  5%] Building CXX object src/microsim/engine/CMakeFiles/microsim_engine.dir/RealisticEngineModel.cpp.o
+[  5%] Linking CXX static library libforeign_phemlight_V5.a
+[  5%] Built target foreign_phemlight_V5
+[  5%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersHarmonoise.cpp.o
+[  5%] Linking CXX static library libutils_distribution.a
+[  5%] Built target utils_distribution
+[  5%] Building CXX object src/netload/CMakeFiles/netload.dir/NLDiscreteEventBuilder.cpp.o
+[  5%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/IDSupplier.cpp.o
+[  5%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSLCM_LC2013.cpp.o
+[  6%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/LinearApproxHelpers.cpp.o
+[  6%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersHBEFA.cpp.o
+[  6%] Building CXX object src/microsim/engine/CMakeFiles/microsim_engine.dir/VehicleEngineHandler.cpp.o
+[  6%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/METriggeredCalibrator.cpp.o
+[  6%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/Boundary.cpp.o
+[  7%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/GenericHandler.cpp.o
+[  7%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPModel_Interacting.cpp.o
+[  7%] Building CXX object src/netload/CMakeFiles/netload.dir/NLEdgeControlBuilder.cpp.o
+[  7%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSLaneSpeedTrigger.cpp.o
+[  7%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_EIDM.cpp.o
+[  7%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSOffTrafficLightLogic.cpp.o
+[  7%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/AdditionalHandler.cpp.o
+[  7%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/MEVehicle.cpp.o
+[  8%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersHBEFA3.cpp.o
+[  8%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSDetectorFileOutput.cpp.o
+[  8%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/GenericSAXHandler.cpp.o
+[  8%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/MsgHandler.cpp.o
+[  8%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/CommonHandler.cpp.o
+[  8%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersHBEFA4.cpp.o
+[  8%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/Bresenham.cpp.o
+[  8%] Building CXX object src/netload/CMakeFiles/netload.dir/NLJunctionControlBuilder.cpp.o
+[  8%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_Kerner.cpp.o
+[  8%] Building CXX object src/utils/importio/CMakeFiles/utils_importio.dir/LineReader.cpp.o
+[  9%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSE2Collector.cpp.o
+[  9%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPModel_NonInteracting.cpp.o
+[  9%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/NamespaceIDs.cpp.o
+[  9%] Linking CXX static library libmicrosim_actions.a
+[  9%] Built target microsim_actions
+[  9%] Building CXX object src/mesosim/CMakeFiles/mesosim.dir/MEVehicleControl.cpp.o
+[  9%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/GeomConvHelper.cpp.o
+[  9%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/Parameterised.cpp.o
+[  9%] Building CXX object src/utils/importio/CMakeFiles/utils_importio.dir/NamedColumnsParser.cpp.o
+[  9%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_ToC.cpp.o
+[  9%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/DataHandler.cpp.o
+[  9%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSRailSignal.cpp.o
+[  9%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersMMPEVEM.cpp.o
+[  9%] Linking CXX static library libutils_importio.a
+[  9%] Built target utils_importio
+[  9%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_BTreceiver.cpp.o
+[  9%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/PolySolver.cpp.o
+[  9%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSE3Collector.cpp.o
+[  9%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSRailSignalConstraint.cpp.o
+[  9%] Linking CXX static library libmicrosim_engine.a
+[  9%] Built target microsim_engine
+[  9%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSChargingStation.cpp.o
+[  9%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_BTsender.cpp.o
+[ 10%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPModel_Striping.cpp.o
+[ 10%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Emissions.cpp.o
+[ 10%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SAXWeightsHandler.cpp.o
+[ 10%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSRailSignalControl.cpp.o
+[ 10%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_Krauss.cpp.o
+[ 10%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/GeneralHandler.cpp.o
+[ 10%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOSAXAttributes.cpp.o
+[ 10%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/RandHelper.cpp.o
+[ 10%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSLCM_LC2013_CC.cpp.o
+[ 10%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersPHEMlight.cpp.o
+[ 10%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSInductLoop.cpp.o
+[ 11%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/RouteHandler.cpp.o
+[ 11%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSDriveWay.cpp.o
+[ 11%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/GeoConvHelper.cpp.o
+[ 12%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_KraussOrig1.cpp.o
+[ 12%] Building CXX object src/netload/CMakeFiles/netload.dir/NLBuilder.cpp.o
+[ 12%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/HelpersPHEMlight5.cpp.o
+[ 12%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/RGBColor.cpp.o
+[ 12%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSPushButton.cpp.o
+[ 12%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOSAXAttributesImpl_Cached.cpp.o
+[ 12%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/MeanDataHandler.cpp.o
+[ 12%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Friction.cpp.o
+[ 12%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSInstantInductLoop.cpp.o
+[ 12%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/GeomHelper.cpp.o
+[ 12%] Linking CXX static library libmesosim.a
+[ 12%] Built target mesosim
+[ 12%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStage.cpp.o
+[ 12%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/PHEMCEP.cpp.o
+[ 12%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Transportable.cpp.o
+[ 12%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/Position.cpp.o
+[ 12%] Building CXX object src/netload/CMakeFiles/netload.dir/NLHandler.cpp.o
+[ 12%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/PHEMCEPHandler.cpp.o
+[ 12%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSRailCrossing.cpp.o
+[ 12%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOSAXAttributesImpl_Xerces.cpp.o
+[ 12%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSMeanData.cpp.o
+[ 12%] Building CXX object src/microsim/lcmodels/CMakeFiles/microsim_lcmodels.dir/MSLCM_SL2015.cpp.o
+[ 12%] Building CXX object src/netload/CMakeFiles/netload.dir/NLNetShapeHandler.cpp.o
+[ 12%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageMoving.cpp.o
+[ 12%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSTriggeredRerouter.cpp.o
+[ 12%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/PositionVector.cpp.o
+[ 12%] Building CXX object src/utils/emissions/CMakeFiles/utils_emissions.dir/PollutantsInterface.cpp.o
+[ 12%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/StdDefs.cpp.o
+[ 12%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageDriving.cpp.o
+[ 12%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSOverheadWire.cpp.o
+[ 12%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSMeanData_Emissions.cpp.o
+[ 12%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/StringTokenizer.cpp.o
+[ 12%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageTranship.cpp.o
+[ 12%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOSAXHandler.cpp.o
+[ 12%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSMeanData_Harmonoise.cpp.o
+[ 12%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_KraussPS.cpp.o
+[ 13%] Building CXX object src/netload/CMakeFiles/netload.dir/NLTriggerBuilder.cpp.o
+[ 13%] Building CXX object src/utils/handlers/CMakeFiles/utils_handlers.dir/TemplateHandler.cpp.o
+[ 13%] Building CXX object src/microsim/trigger/CMakeFiles/microsim_trigger.dir/MSStoppingPlaceRerouter.cpp.o
+[ 13%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Routing.cpp.o
+[ 13%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSMeanData_Net.cpp.o
+[ 13%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/StringUtils.cpp.o
+[ 13%] Building CXX object src/utils/geom/CMakeFiles/utils_geom.dir/Triangle.cpp.o
+[ 13%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageTrip.cpp.o
+[ 13%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOSAXReader.cpp.o
+[ 13%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_KraussX.cpp.o
+[ 13%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSimpleTrafficLightLogic.cpp.o
+[ 13%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Tripinfo.cpp.o
+[ 13%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/SUMOXMLDefinitions.cpp.o
+[ 13%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/CSVFormatter.cpp.o
+[ 13%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageWaiting.cpp.o
+[ 13%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_PWag2009.cpp.o
+[ 13%] Building CXX object src/utils/options/CMakeFiles/utils_options.dir/Option.cpp.o
+[ 14%] Linking CXX static library libutils_geom.a
+[ 14%] Built target utils_geom
+[ 14%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLE2Sensors.cpp.o
+[ 14%] Linking CXX static library libutils_emissions.a
+[ 14%] Built target utils_emissions
+[ 15%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Battery.cpp.o
+[ 15%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice.cpp.o
+[ 15%] Building CXX object src/utils/xml/CMakeFiles/utils_xml.dir/XMLSubSys.cpp.o
+[ 15%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/SUMOTime.cpp.o
+[ 15%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSMeanData_Amitran.cpp.o
+[ 15%] Linking CXX static library libutils_handlers.a
+[ 15%] Built target utils_handlers
+[ 15%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/PointOfInterest.cpp.o
+[ 15%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice_CERR.cpp.o
+[ 15%] Linking CXX static library libmicrosim_lcmodels.a
+[ 15%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_SmartSK.cpp.o
+[ 15%] Built target microsim_lcmodels
+[ 15%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/SUMOVehicleClass.cpp.o
+[ 15%] Building CXX object src/utils/options/CMakeFiles/utils_options.dir/OptionsCont.cpp.o
+[ 15%] Building CXX object src/utils/traction_wire/CMakeFiles/utils_traction_wire.dir/Circuit.cpp.o
+[ 15%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_Wiedemann.cpp.o
+[ 16%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/Shape.cpp.o
+[ 16%] Building CXX object src/utils/options/CMakeFiles/utils_options.dir/OptionsIO.cpp.o
+[ 17%] Building CXX object src/utils/traction_wire/CMakeFiles/utils_traction_wire.dir/Element.cpp.o
+[ 17%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/SUMOPolygon.cpp.o
+[ 17%] Building CXX object src/utils/options/CMakeFiles/utils_options.dir/OptionsLoader.cpp.o
+[ 17%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/SystemFrame.cpp.o
+[ 17%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicyDesirability.cpp.o
+[ 17%] Linking CXX static library libnetload.a
+[ 17%] Built target netload
+[ 17%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Example.cpp.o
+[ 17%] Building CXX object src/utils/options/CMakeFiles/utils_options.dir/OptionsParser.cpp.o
+[ 18%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/SysUtils.cpp.o
+[ 18%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_W99.cpp.o
+[ 18%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Vehroutes.cpp.o
+[ 18%] Building CXX object src/utils/traction_wire/CMakeFiles/utils_traction_wire.dir/Node.cpp.o
+[ 18%] Building CXX object src/utils/common/CMakeFiles/utils_common.dir/UtilExceptions.cpp.o
+[ 18%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicy5DFamilyStimulus.cpp.o
+[ 18%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice_COUT.cpp.o
+[ 18%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMORouteHandler.cpp.o
+[ 18%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice_File.cpp.o
+[ 18%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/PolygonDynamics.cpp.o
+[ 18%] Building CXX object src/mesogui/CMakeFiles/mesogui.dir/GUIMEInductLoop.cpp.o
+[ 18%] Linking CXX static library libmicrosim_trigger.a
+[ 18%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMORouteLoader.cpp.o
+[ 18%] Built target microsim_trigger
+[ 19%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice_String.cpp.o
+[ 19%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSRouteProbe.cpp.o
+[ 19%] Building CXX object src/mesogui/CMakeFiles/mesogui.dir/GUIMEVehicle.cpp.o
+[ 19%] Built target install_mo
+[ 19%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSStageWalking.cpp.o
+[ 19%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMORouteLoaderControl.cpp.o
+[ 20%] Linking CXX static library libutils_xml.a
+[ 20%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSTransportable.cpp.o
+[ 20%] Built target utils_xml
+[ 20%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/ShapeHandler.cpp.o
+[ 20%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Edge.cpp.o
+[ 21%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicy5DStimulus.cpp.o
+[ 21%] Building CXX object src/mesogui/CMakeFiles/mesogui.dir/GUIMEVehicleControl.cpp.o
+[ 21%] Linking CXX static library libutils_traction_wire.a
+[ 21%] Built target utils_traction_wire
+[ 21%] Building CXX object src/utils/shapes/CMakeFiles/utils_shapes.dir/ShapeContainer.cpp.o
+[ 21%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Helper.cpp.o
+[ 21%] Building CXX object src/osgview/CMakeFiles/osgview.dir/GUIOSGBuilder.cpp.o
+[ 21%] Linking CXX static library libutils_common.a
+[ 21%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Bluelight.cpp.o
+[ 21%] Built target utils_common
+[ 21%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSVTypeProbe.cpp.o
+[ 21%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicy3DStimulus.cpp.o
+[ 21%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXBaseObject.cpp.o
+[ 21%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/OutputDevice_Network.cpp.o
+[ 21%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMOTrafficObject.cpp.o
+[ 21%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/InductionLoop.cpp.o
+[ 21%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXButtonTooltip.cpp.o
+[ 21%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_ACC.cpp.o
+[ 21%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSXMLRawOut.cpp.o
+[ 21%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMOVehicleParameter.cpp.o
+[ 21%] Linking CXX static library libutils_options.a
+[ 21%] Built target utils_options
+[ 21%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_CACC.cpp.o
+[ 21%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Junction.cpp.o
+[ 21%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXCheckButtonTooltip.cpp.o
+[ 22%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSFCDExport.cpp.o
+[ 23%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXCheckableButton.cpp.o
+[ 23%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMOVehicleParserHelper.cpp.o
+[ 23%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_Rail.cpp.o
+[ 23%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Lane.cpp.o
+[ 23%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_FCD.cpp.o
+[ 23%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSAmitranTrajectories.cpp.o
+[ 23%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXComboBoxAttrProperty.cpp.o
+[ 23%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSTransportableControl.cpp.o
+[ 23%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicy.cpp.o
+[ 23%] Building CXX object src/utils/vehicle/CMakeFiles/utils_vehicle.dir/SUMOVTypeParameter.cpp.o
+[ 23%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLMarchingPolicy.cpp.o
+[ 23%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/PlainXMLFormatter.cpp.o
+[ 23%] Building CXX object src/microsim/transportables/CMakeFiles/microsim_transportables.dir/MSPModel_JuPedSim.cpp.o
+[ 23%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXComboBoxIcon.cpp.o
+[ 23%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GLHelper.cpp.o
+[ 24%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/LaneArea.cpp.o
+[ 24%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUICursorDialog.cpp.o
+[ 24%] Linking CXX static library libutils_shapes.a
+[ 24%] Built target utils_shapes
+[ 24%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSBatteryExport.cpp.o
+[ 24%] Building CXX object src/osgview/CMakeFiles/osgview.dir/GUIOSGView.cpp.o
+[ 25%] Linking CXX static library libmesogui.a
+[ 25%] Built target mesogui
+[ 25%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/CC_VehicleVariables.cpp.o
+[ 25%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIBasePersonHelper.cpp.o
+[ 25%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_FCDReplay.cpp.o
+[ 25%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSChargingStationExport.cpp.o
+[ 25%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXComboBoxTagProperty.cpp.o
+[ 25%] Building CXX object src/utils/iodevices/CMakeFiles/utils_iodevices.dir/ParquetFormatter.cpp.o
+[ 25%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLCongestionPolicy.cpp.o
+[ 25%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/MultiEntryExit.cpp.o
+[ 26%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIGLObjectPopupMenu.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPhasePolicy.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXDecalsTable.cpp.o
+[ 26%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIBaseVehicleHelper.cpp.o
+[ 26%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIGlObject.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPlatoonPolicy.cpp.o
+[ 26%] Building CXX object src/microsim/cfmodels/CMakeFiles/microsim_cfmodels.dir/MSCFModel_CC.cpp.o
+[ 26%] Building CXX object src/osgview/CMakeFiles/osgview.dir/GUIOSGPerspectiveChanger.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXDynamicLabel.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLRequestPolicy.cpp.o
+[ 26%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSStopOut.cpp.o
+[ 26%] Building CXX object src/osgview/CMakeFiles/osgview.dir/GUIOSGManipulator.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXGroupBoxModule.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPolicyBasedTrafficLightLogic.cpp.o
+[ 26%] Linking CXX static library libutils_vehicle.a
+[ 26%] Built target utils_vehicle
+[ 26%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Person.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXImageHelper.cpp.o
+[ 26%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/POI.cpp.o
+[ 26%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_ElecHybrid.cpp.o
+[ 26%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSEmissionExport.cpp.o
+[ 26%] Building CXX object src/utils/gui/images/CMakeFiles/utils_gui_images.dir/GUIIconSubSys.cpp.o
+[ 26%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSVTKExport.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLPhaseTrafficLightLogic.cpp.o
+[ 26%] Building CXX object src/utils/gui/settings/CMakeFiles/utils_gui_settings.dir/GUICompleteSchemeStorage.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXLCDLabel.cpp.o
+[ 26%] Linking CXX static library libutils_iodevices.a
+[ 26%] Built target utils_iodevices
+[ 26%] Building CXX object src/utils/gui/images/CMakeFiles/utils_gui_images.dir/GUITextureSubSys.cpp.o
+[ 26%] Building CXX object src/utils/gui/tracker/CMakeFiles/utils_gui_tracker.dir/GUIParameterTracker.cpp.o
+[ 26%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSFullExport.cpp.o
+[ 26%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIGlObjectStorage.cpp.o
+[ 26%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIDesigns.cpp.o
+[ 26%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIDanielPerspectiveChanger.cpp.o
+[ 26%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSQueueExport.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXLabelTooltip.cpp.o
+[ 26%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIDialog_GLChosenEditor.cpp.o
+[ 26%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIGlObject_AbstractAdd.cpp.o
+[ 26%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXLinkLabel.cpp.o
+[ 26%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLSensors.cpp.o
+[ 26%] Building CXX object src/utils/gui/tracker/CMakeFiles/utils_gui_tracker.dir/TrackerValueDesc.cpp.o
+[ 26%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIShapeContainer.cpp.o
+[ 27%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIDialog_EditViewport.cpp.o
+[ 27%] Building CXX object src/microsim/output/CMakeFiles/microsim_output.dir/MSElecHybridExport.cpp.o
+[ 27%] Building CXX object src/utils/gui/settings/CMakeFiles/utils_gui_settings.dir/GUISettingsHandler.cpp.o
+[ 27%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXListIcon.cpp.o
+[ 27%] Linking CXX static library libmicrosim_transportables.a
+[ 27%] Building CXX object src/utils/gui/images/CMakeFiles/utils_gui_images.dir/GUITexturesHelper.cpp.o
+[ 27%] Built target microsim_transportables
+[ 27%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIPointOfInterest.cpp.o
+[ 27%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLTrafficLightLogic.cpp.o
+[ 27%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_Taxi.cpp.o
+[ 27%] Building CXX object src/utils/gui/images/CMakeFiles/utils_gui_images.dir/POIIcons.cpp.o
+[ 28%] Linking CXX static library libmicrosim_cfmodels.a
+[ 28%] Built target microsim_cfmodels
+[ 28%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Polygon.cpp.o
+[ 28%] Building CXX object src/utils/gui/settings/CMakeFiles/utils_gui_settings.dir/GUIVisualizationSettings.cpp.o
+[ 29%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXListIconItem.cpp.o
+[ 29%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_GLOSA.cpp.o
+[ 30%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLWaveTrafficLightLogic.cpp.o
+[ 30%] Building CXX object src/utils/gui/cursors/CMakeFiles/utils_gui_cursors.dir/GUICursorSubSys.cpp.o
+[ 30%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXMenuButtonTooltip.cpp.o
+[ 30%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDevice_StationFinder.cpp.o
+[ 30%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXMenuCheckIcon.cpp.o
+[ 31%] Building CXX object src/utils/gui/images/CMakeFiles/utils_gui_images.dir/VClassIcons.cpp.o
+[ 31%] Linking CXX static library libutils_gui_tracker.a
+[ 31%] Built target utils_gui_tracker
+[ 31%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSOTLHiLevelTrafficLightLogic.cpp.o
+[ 31%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXMenuHeader.cpp.o
+[ 31%] Building CXX object src/utils/gui/globjects/CMakeFiles/utils_gui_globjects.dir/GUIPolygon.cpp.o
+[ 31%] Linking CXX static library libutils_gui_cursors.a
+[ 31%] Built target utils_gui_cursors
+[ 31%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIDottedGeometry.cpp.o
+[ 31%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIDialog_ViewSettings.cpp.o
+[ 31%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSTransportableDevice_Routing.cpp.o
+[ 31%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSSwarmTrafficLightLogic.cpp.o
+[ 31%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXRealSpinner.cpp.o
+[ 31%] Building CXX object src/utils/gui/shortcuts/CMakeFiles/utils_gui_shortcuts.dir/GUIShortcutsSubSys.cpp.o
+[ 31%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Route.cpp.o
+[ 31%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSTransportableDevice_FCD.cpp.o
+[ 31%] Linking CXX static library libutils_gui_shortcuts.a
+[ 31%] Built target utils_gui_shortcuts
+[ 31%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Calibrator.cpp.o
+[ 31%] Building CXX object src/utils/tests/CMakeFiles/utils_tests.dir/InternalTest.cpp.o
+[ 31%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSDeterministicHiLevelTrafficLightLogic.cpp.o
+[ 31%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIGeometry.cpp.o
+[ 31%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/BusStop.cpp.o
+[ 31%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXRecentNetworks.cpp.o
+[ 32%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSTransportableDevice_FCDReplay.cpp.o
+[ 32%] Building CXX object src/utils/tests/CMakeFiles/utils_tests.dir/InternalTestStep.cpp.o
+[ 32%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/ParkingArea.cpp.o
+[ 32%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXSevenSegment.cpp.o
+[ 32%] Linking CXX static library libutils_gui_images.a
+[ 32%] Built target utils_gui_images
+[ 32%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIGlChildWindow.cpp.o
+[ 32%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSRoutingEngine.cpp.o
+[ 32%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIGlobalSelection.cpp.o
+[ 32%] Building CXX object src/gui/CMakeFiles/gui.dir/GUIApplicationWindow.cpp.o
+/Users/sumo/clangMacOS_M1/sumo/src/utils/foxtools/MFXRecentNetworks.cpp:61:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   61 |     sprintf(key, "FILE%d", which);
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+[ 32%] Linking CXX static library libosgview.a
+[ 32%] Built target osgview
+1 warning generated.
+[ 32%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIMainWindow.cpp.o
+[ 32%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXSingleEventThread.cpp.o
+[ 32%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSTLLogicControl.cpp.o
+[ 32%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_AboutSUMO.cpp.o
+[ 32%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDispatch.cpp.o
+[ 32%] Linking CXX static library libmicrosim_output.a
+[ 32%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXStaticToolTip.cpp.o
+[ 32%] Built target microsim_output
+[ 32%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/MSTrafficLightLogic.cpp.o
+[ 32%] Building CXX object src/guinetload/CMakeFiles/guinetload.dir/GUIDetectorBuilder.cpp.o
+[ 33%] Building CXX object src/gui/CMakeFiles/gui.dir/GUIGlobals.cpp.o
+[ 33%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDispatch_Greedy.cpp.o
+[ 33%] Linking CXX static library libutils_gui_settings.a
+[ 33%] Built target utils_gui_settings
+[ 33%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXTextFieldIcon.cpp.o
+[ 33%] Building CXX object src/gui/CMakeFiles/gui.dir/GUIManipulator.cpp.o
+[ 33%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIPerspectiveChanger.cpp.o
+[ 33%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDispatch_GreedyShared.cpp.o
+[ 33%] Linking CXX static library libutils_gui_globjects.a
+[ 33%] Built target utils_gui_globjects
+[ 33%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIGlobalViewObjectsHandler.cpp.o
+[ 33%] Building CXX object src/guinetload/CMakeFiles/guinetload.dir/GUIEdgeControlBuilder.cpp.o
+[ 33%] Building CXX object src/guisim/CMakeFiles/guisim.dir/Command_Hotkey_InductionLoop.cpp.o
+[ 33%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXTextFieldSearch.cpp.o
+[ 33%] Building CXX object src/gui/CMakeFiles/gui.dir/GUILoadThread.cpp.o
+[ 33%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_Feedback.cpp.o
+[ 33%] Building CXX object src/foreign/eulerspiral/CMakeFiles/foreign_eulerspiral.dir/odrSpiral.cpp.o
+[ 33%] Linking CXX static library libforeign_eulerspiral.a
+[ 33%] Built target foreign_eulerspiral
+[ 33%] Building CXX object src/guisim/CMakeFiles/guisim.dir/Command_Hotkey_TrafficLight.cpp.o
+[ 33%] Building CXX object src/guinetload/CMakeFiles/guinetload.dir/GUITriggerBuilder.cpp.o
+[ 33%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXThreadEvent.cpp.o
+[ 33%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDispatch_RouteExtension.cpp.o
+[ 34%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIGlobalViewUpdater.cpp.o
+[ 34%] Building CXX object src/microsim/traffic_lights/CMakeFiles/microsim_traffic_lights.dir/NEMAController.cpp.o
+[ 34%] Linking CXX static library libutils_tests.a
+[ 34%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBAlgorithms.cpp.o
+[ 34%] Built target utils_tests
+[ 34%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUISUMOAbstractView.cpp.o
+[ 34%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIBusStop.cpp.o
+[ 34%] Building CXX object src/gui/CMakeFiles/gui.dir/GUIRunThread.cpp.o
+[ 34%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/ChargingStation.cpp.o
+[ 34%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIContainer.cpp.o
+[ 34%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/RouteProbe.cpp.o
+[ 35%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXToggleButtonTooltip.cpp.o
+[ 35%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_AppSettings.cpp.o
+[ 35%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Rerouter.cpp.o
+[ 35%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBAlgorithms_Ramps.cpp.o
+[ 35%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIIOGlobals.cpp.o
+[ 36%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/VariableSpeedSign.cpp.o
+[ 37%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_Breakpoints.cpp.o
+[ 37%] Generating typemap.h
+[ 37%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIFrame.cpp.o
+[ 37%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXTreeListDynamic.cpp.o
+[ 37%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIMessageWindow.cpp.o
+[ 37%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/MeanData.cpp.o
+[ 37%] Building CXX object src/gui/CMakeFiles/gui.dir/GUISUMOViewParent.cpp.o
+[ 37%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSDispatch_TraCI.cpp.o
+[ 37%] Building CXX object src/utils/foxtools/CMakeFiles/utils_foxtools.dir/MFXUtils.cpp.o
+[ 37%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NILoader.cpp.o
+[ 37%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBAlgorithms_Railway.cpp.o
+[ 37%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIParam_PopupMenu.cpp.o
+[ 37%] Building CXX object src/gui/CMakeFiles/gui.dir/GUITLLogicPhasesTrackerWindow.cpp.o
+[ 37%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/OverheadWire.cpp.o
+[ 37%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBConnection.cpp.o
+[ 38%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NITypeLoader.cpp.o
+[ 38%] Linking CXX static library libutils_foxtools.a
+[ 38%] Built target utils_foxtools
+[ 39%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIParkingArea.cpp.o
+[ 39%] Building CXX object src/gui/CMakeFiles/gui.dir/GUIViewTraffic.cpp.o
+[ 39%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_HallOfFame.cpp.o
+[ 39%] Building CXX object src/microsim/devices/CMakeFiles/microsim_devices.dir/MSIdling.cpp.o
+[ 39%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Simulation.cpp.o
+[ 39%] Linking CXX static library libguinetload.a
+[ 39%] Built target guinetload
+[ 39%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIDetectorWrapper.cpp.o
+[ 39%] Building CXX object src/netimport/vissim/CMakeFiles/netimport_vissim.dir/NIImporter_Vissim.cpp.o
+[ 39%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIParameterTableWindow.cpp.o
+[ 39%] Building CXX object src/utils/gui/windows/CMakeFiles/utils_gui_windows.dir/GUIDialog_ChooserAbstract.cpp.o
+[ 39%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBContHelper.cpp.o
+[ 39%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_ArcView.cpp.o
+[ 39%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimAbstractEdge.cpp.o
+[ 39%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/TrafficLight.cpp.o
+[ 39%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Auswertungsdefinition.cpp.o
+[ 39%] Building CXX object src/gui/dialogs/CMakeFiles/gui_dialogs.dir/GUIDialog_GLObjChooser.cpp.o
+[ 39%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimBoundedClusterObject.cpp.o
+[ 39%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_DlrNavteq.cpp.o
+[ 40%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBDistrict.cpp.o
+[ 40%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWFrame.cpp.o
+[ 40%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_ITSUMO.cpp.o
+[ 40%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIE2Collector.cpp.o
+[ 40%] Linking CXX static library libmicrosim_traffic_lights.a
+[ 40%] Built target microsim_traffic_lights
+[ 40%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBDistrictCont.cpp.o
+[ 40%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimClosedLaneDef.cpp.o
+[ 41%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimClosures.cpp.o
+[ 41%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Detektordefinition.cpp.o
+[ 41%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIE3Collector.cpp.o
+[ 41%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBEdge.cpp.o
+[ 41%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_MATSim.cpp.o
+[ 41%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/Vehicle.cpp.o
+[ 41%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_DynUml.cpp.o
+[ 41%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIPersistentWindowPos.cpp.o
+[ 41%] Building CXX object src/gui/CMakeFiles/gui.dir/TraCIServerAPI_GUI.cpp.o
+[ 42%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Einheitendefinition.cpp.o
+[ 42%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_OpenDrive.cpp.o
+[ 42%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIEdge.cpp.o
+[ 42%] Building CXX object src/od/CMakeFiles/od.dir/ODDistrict.cpp.o
+[ 42%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_Amitran.cpp.o
+[ 42%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_OpenStreetMap.cpp.o
+[ 42%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/VehicleType.cpp.o
+[ 42%] Building CXX object src/router/CMakeFiles/router.dir/ROEdge.cpp.o
+[ 42%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_MATSim.cpp.o
+[ 42%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUISelectedStorage.cpp.o
+[ 42%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimConflictArea.cpp.o
+[ 42%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIEventControl.cpp.o
+[ 42%] Linking CXX static library libutils_gui_windows.a
+[ 42%] Built target utils_gui_windows
+[ 42%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_SUMO.cpp.o
+[ 42%] Linking CXX static library libgui_dialogs.a
+[ 42%] Built target gui_dialogs
+[ 42%] Building CXX object src/od/CMakeFiles/od.dir/ODDistrictCont.cpp.o
+[ 42%] Linking CXX static library libmicrosim_devices.a
+[ 42%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIImporter_VISUM.cpp.o
+[ 42%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Emission.cpp.o
+[ 42%] Built target microsim_devices
+[ 42%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIInductLoop.cpp.o
+[ 42%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimConnection.cpp.o
+[ 42%] Linking CXX static library libnetimport_vissim.a
+[ 42%] Built target netimport_vissim
+[ 43%] Building CXX object src/router/CMakeFiles/router.dir/ROFrame.cpp.o
+[ 43%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIVisumTL.cpp.o
+[ 43%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Fahrtverlaufdateien.cpp.o
+[ 43%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLConnectionsHandler.cpp.o
+[ 43%] Building CXX object src/activitygen/activities/CMakeFiles/activitygen_activities.dir/AGActivities.cpp.o
+[ 43%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimConnectionCluster.cpp.o
+[ 43%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLEdgesHandler.cpp.o
+[ 44%] Building CXX object src/od/CMakeFiles/od.dir/ODAmitranHandler.cpp.o
+[ 44%] Building CXX object src/activitygen/activities/CMakeFiles/activitygen_activities.dir/AGTrip.cpp.o
+[ 44%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBEdgeCont.cpp.o
+[ 44%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIUserIO.cpp.o
+[ 44%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_OpenDrive.cpp.o
+[ 44%] Building CXX object src/od/CMakeFiles/od.dir/ODDistrictHandler.cpp.o
+[ 45%] Building CXX object src/activitygen/activities/CMakeFiles/activitygen_activities.dir/AGActivity.cpp.o
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLNodesHandler.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimDistrictConnection.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Fahrverhaltendefinition.cpp.o
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/ROHelper.cpp.o
+[ 46%] Linking CXX static library libgui.a
+[ 46%] Built target gui
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLTypesHandler.cpp.o
+[ 46%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_DlrNavteq.cpp.o
+[ 46%] Building CXX object src/libsumo/CMakeFiles/libsumoguistatic.dir/GUI.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimDisturbance.cpp.o
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/ROLoader.cpp.o
+[ 46%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIViewObjectsHandler.cpp.o
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGTime.cpp.o
+[ 46%] Building CXX object src/od/CMakeFiles/od.dir/ODMatrix.cpp.o
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLPTHandler.cpp.o
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGCity.cpp.o
+[ 46%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIInstantInductLoop.cpp.o
+[ 46%] Building CXX object src/utils/gui/div/CMakeFiles/utils_gui_div.dir/GUIViewUpdater.cpp.o
+[ 46%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIJunctionWrapper.cpp.o
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGStreet.cpp.o
+[ 46%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBFrame.cpp.o
+[ 46%] Building CXX object src/activitygen/activities/CMakeFiles/activitygen_activities.dir/AGWorkAndSchool.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Fahrzeugklassendefinition.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimEdge.cpp.o
+[ 46%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_SUMO.cpp.o
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGPosition.cpp.o
+[ 46%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBHeightMapper.cpp.o
+[ 46%] Building CXX object src/activitygen/activities/CMakeFiles/activitygen_activities.dir/AGFreeTime.cpp.o
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/RONet.cpp.o
+[ 46%] Building CXX object src/netwrite/CMakeFiles/netwrite.dir/NWWriter_XML.cpp.o
+[ 46%] Swig compile libsumo.i for java
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGSchool.cpp.o
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLShapeHandler.cpp.o
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/RONetHandler.cpp.o
+[ 46%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUILane.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Fahrzeugtypdefinition.cpp.o
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/RONode.cpp.o
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NIXMLTrafficLightsHandler.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Fensterdefinition.cpp.o
+[ 46%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimEdgePosMap.cpp.o
+[ 46%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUILaneSpeedTrigger.cpp.o
+[ 46%] Swig compile libsumo.i for csharp
+[ 46%] Linking CXX static library libutils_gui_div.a
+[ 46%] Built target utils_gui_div
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGBusLine.cpp.o
+[ 46%] Building CXX object src/netimport/CMakeFiles/netimport.dir/NINavTeqHelper.cpp.o
+[ 46%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIPerson.cpp.o
+[ 46%] Swig compile libsumo.i for python
+[ 46%] Building CXX object src/router/CMakeFiles/router.dir/ROPerson.cpp.o
+[ 46%] Linking CXX static library libod.a
+[ 46%] Built target od
+[ 46%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGBus.cpp.o
+[ 47%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUINet.cpp.o
+[ 47%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGHousehold.cpp.o
+[ 47%] Building CXX object src/router/CMakeFiles/router.dir/RORoute.cpp.o
+[ 47%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimExtendedEdgePoint.cpp.o
+[ 47%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBHelpers.cpp.o
+[ 47%] Linking CXX static library /Users/sumo/clangMacOS_M1/sumo/bin/libsumoguistaticD.a
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Connection.cpp.o
+[ 48%] Built target libsumoguistatic
+[ 48%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimNodeCluster.cpp.o
+[ 48%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Gefahrwarnungsdefinition.cpp.o
+[ 48%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBNode.cpp.o
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Edge.cpp.o
+[ 48%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUITrafficLightLogicWrapper.cpp.o
+[ 48%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBNodeCont.cpp.o
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Connection.cpp.o
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/GUI.cpp.o
+[ 48%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimNodeDef.cpp.o
+[ 48%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Gelbverhaltendefinition.cpp.o
+[ 48%] Building CXX object src/router/CMakeFiles/router.dir/RORouteDef.cpp.o
+[ 48%] Linking CXX static library libactivitygen_activities.a
+[ 48%] Built target activitygen_activities
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/InductionLoop.cpp.o
+[ 48%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimNodeDef_Edges.cpp.o
+[ 48%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Edge.cpp.o
+[ 48%] Linking CXX static library libnetwrite.a
+[ 48%] Built target netwrite
+[ 48%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Geschwindigkeitsverteilungsdefinition.cpp.o
+[ 48%] Building CXX object src/router/CMakeFiles/router.dir/RORouteHandler.cpp.o
+[ 48%] Linking CXX static library libnetimport.a
+[ 48%] Built target netimport
+[ 49%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimNodeDef_Poly.cpp.o
+[ 49%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/GUI.cpp.o
+[ 49%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUITriggeredRerouter.cpp.o
+[ 49%] Built target libsumojni_swig_compilation
+[ 49%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimNodeParticipatingEdge.cpp.o
+[ 50%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGWorkPosition.cpp.o
+[ 50%] Swig compile libtraci.i for java
+[ 50%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimSource.cpp.o
+[ 50%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/InductionLoop.cpp.o
+[ 50%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimTL.cpp.o
+[ 50%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Haltestellendefinition.cpp.o
+[ 50%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Junction.cpp.o
+[ 50%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Kantensperrung.cpp.o
+[ 50%] Building CXX object src/router/CMakeFiles/router.dir/ROVehicle.cpp.o
+[ 50%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBNodeShapeComputer.cpp.o
+[ 50%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Lane.cpp.o
+[ 50%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIOverheadWire.cpp.o
+[ 50%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGPerson.cpp.o
+[ 51%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Kennungszeile.cpp.o
+[ 51%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Junction.cpp.o
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUICalibrator.cpp.o
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIChargingStation.cpp.o
+[ 51%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/LaneArea.cpp.o
+[ 51%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Knotendefinition.cpp.o
+[ 51%] Built target libsumocs_swig_compilation
+[ 51%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/MultiEntryExit.cpp.o
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIBaseVehicle.cpp.o
+[ 51%] Swig compile libtraci.i for csharp
+[ 51%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_LSAKopplungsdefinition.cpp.o
+[ 51%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimTrafficDescription.cpp.o
+[ 51%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Lane.cpp.o
+[ 51%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBParking.cpp.o
+[ 51%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGAdult.cpp.o
+[ 51%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimVehTypeClass.cpp.o
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIVehicle.cpp.o
+[ 51%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Laengenverteilungsdefinition.cpp.o
+[ 51%] Swig compile libtraci.i for python
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUIVehicleControl.cpp.o
+[ 51%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGChild.cpp.o
+[ 51%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBPTStop.cpp.o
+[ 51%] Building CXX object src/guisim/CMakeFiles/guisim.dir/GUITransportableControl.cpp.o
+[ 51%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/LaneArea.cpp.o
+[ 52%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Person.cpp.o
+[ 52%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimVehicleClass.cpp.o
+[ 52%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/MultiEntryExit.cpp.o
+[ 52%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Langsamfahrbereichdefinition.cpp.o
+[ 52%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGDataAndStatistics.cpp.o
+[ 53%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/polyconvert_main.cpp.o
+[ 53%] Building CXX object src/netimport/vissim/tempstructs/CMakeFiles/netimport_vissim_tempstructs.dir/NIVissimVehicleType.cpp.o
+[ 53%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/POI.cpp.o
+[ 54%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBPTStopCont.cpp.o
+[ 54%] Building CXX object src/tools/CMakeFiles/emissionsDrivingCycle.dir/emissionsDrivingCycle_main.cpp.o
+[ 54%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCLoaderArcView.cpp.o
+[ 54%] Building CXX object src/activitygen/city/CMakeFiles/activitygen_city.dir/AGCar.cpp.o
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Polygon.cpp.o
+[ 54%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBRequest.cpp.o
+[ 54%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCLoaderDlrNavteq.cpp.o
+[ 54%] Linking CXX static library libnetimport_vissim_tempstructs.a
+[ 54%] Built target netimport_vissim_tempstructs
+[ 54%] Building CXX object src/tools/CMakeFiles/emissionsDrivingCycle.dir/TrajectoriesHandler.cpp.o
+[ 54%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBTrafficLightDefinition.cpp.o
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Route.cpp.o
+[ 54%] Linking CXX static library libactivitygen_city.a
+[ 54%] Building CXX object src/tools/CMakeFiles/emissionsMap.dir/VTypesHandler.cpp.o
+[ 54%] Built target activitygen_city
+[ 54%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBTrafficLightLogic.cpp.o
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Calibrator.cpp.o
+[ 54%] Built target libtracijni_swig_compilation
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Person.cpp.o
+[ 54%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Lichtsignalanlagendefinition.cpp.o
+[ 54%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCLoaderVisum.cpp.o
+[ 54%] Built target libsumo_swig_compilation
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/POI.cpp.o
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/BusStop.cpp.o
+[ 54%] Building CXX object src/tools/CMakeFiles/emissionsMap.dir/emissionsMap_main.cpp.o
+[ 54%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Polygon.cpp.o
+[ 54%] Linking CXX static library librouter.a
+[ 54%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCLoaderOSM.cpp.o
+[ 54%] Built target router
+[ 54%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBTrafficLightLogicCont.cpp.o
+[ 54%] Building CXX object src/utils/traci/CMakeFiles/utils_traci.dir/TraCIAPI.cpp.o
+[ 55%] Building CXX object src/tools/CMakeFiles/emissionsDrivingCycle.dir/VTypesHandler.cpp.o
+[ 55%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCLoaderXML.cpp.o
+[ 55%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBTypeCont.cpp.o
+[ 55%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Route.cpp.o
+[ 55%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCNetProjectionLoader.cpp.o
+[ 55%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Liniendefinition.cpp.o
+[ 55%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/ParkingArea.cpp.o
+[ 55%] Building CXX object src/netedit/tools/CMakeFiles/netedit_tools.dir/GNENetDiffTool.cpp.o
+[ 55%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCPolyContainer.cpp.o
+[ 56%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Calibrator.cpp.o
+[ 56%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/ChargingStation.cpp.o
+[ 56%] Built target libtracics_swig_compilation
+[ 57%] Building CXX object src/netedit/tools/CMakeFiles/netedit_tools.dir/GNEPythonTool.cpp.o
+[ 57%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Linksverkehr.cpp.o
+[ 57%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/BusStop.cpp.o
+[ 57%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/RouteProbe.cpp.o
+[ 57%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCTypeDefHandler.cpp.o
+[ 58%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange.cpp.o
+[ 58%] Building CXX object src/polyconvert/CMakeFiles/polyconvert.dir/PCTypeMap.cpp.o
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/ParkingArea.cpp.o
+[ 58%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChangeGroup.cpp.o
+[ 58%] Linking CXX static library libutils_traci.a
+[ 58%] Built target utils_traci
+[ 58%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Messungsdefinition.cpp.o
+[ 58%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/emissionsDrivingCycleD
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Rerouter.cpp.o
+[ 58%] Built target emissionsDrivingCycle
+[ 58%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBSign.cpp.o
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/ChargingStation.cpp.o
+[ 58%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Netzobjektdefinition.cpp.o
+[ 58%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Additional.cpp.o
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/VariableSpeedSign.cpp.o
+[ 58%] Linking CXX static library libguisim.a
+[ 58%] Built target guisim
+[ 58%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBOwnTLDef.cpp.o
+[ 58%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEACChooserDialog.cpp.o
+[ 58%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Attribute.cpp.o
+[ 58%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Parkplatzdefinition.cpp.o
+[ 58%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/emissionsMapD
+[ 58%] Built target emissionsMap
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/RouteProbe.cpp.o
+[ 58%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBLoadedTLDef.cpp.o
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/MeanData.cpp.o
+[ 58%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEBasicDialog.cpp.o
+[ 58%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Querschnittsmessungsdefinition.cpp.o
+[ 58%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBLoadedSUMOTLDef.cpp.o
+[ 58%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Rerouter.cpp.o
+[ 59%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Querverkehrsstoerungsdefinition.cpp.o
+[ 59%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEAboutDialog.cpp.o
+[ 59%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEErrorBasicDialog.cpp.o
+[ 59%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBNetBuilder.cpp.o
+[ 59%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Rautedefinition.cpp.o
+[ 59%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Children.cpp.o
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/OverheadWire.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNEAttributeCarrierDialog.cpp.o
+[ 60%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Reisezeitmessungsdefinition.cpp.o
+[ 60%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Connection.cpp.o
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Simulation.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/elements/lists/CMakeFiles/netedit_dialogs_elements_lists.dir/GNEElementList.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEVClassesDialog.cpp.o
+[ 60%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/polyconvertD
+[ 60%] Built target polyconvert
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/VariableSpeedSign.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEHelpBasicDialog.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/file/CMakeFiles/netedit_dialogs_file.dir/GNEFileDialog.cpp.o
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/TrafficLight.cpp.o
+[ 60%] Building CXX object src/netedit/dialogs/elements/lists/CMakeFiles/netedit_dialogs_elements_lists.dir/GNEElementTable.cpp.o
+[ 60%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Richtungsentscheidungsdefinition.cpp.o
+[ 60%] Linking CXX static library libnetedit_tools.a
+[ 60%] Built target netedit_tools
+[ 60%] Building CXX object src/netedit/dialogs/file/CMakeFiles/netedit_dialogs_file.dir/GNEFilePathDialog.cpp.o
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/Vehicle.cpp.o
+[ 60%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/MeanData.cpp.o
+[ 60%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Crossing.cpp.o
+[ 61%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEInformationBasicDialog.cpp.o
+[ 61%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBPTLine.cpp.o
+[ 61%] Building CXX object src/netedit/dialogs/fix/CMakeFiles/netedit_dialogs_fix.dir/GNEFixAdditionalElementsDialog.cpp.o
+[ 61%] Building CXX object src/libtraci/CMakeFiles/libtracicpp.dir/VehicleType.cpp.o
+[ 61%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEOverwriteElement.cpp.o
+[ 61%] Built target libtraci_swig_compilation
+[ 62%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBPTLineCont.cpp.o
+[ 62%] Building CXX object src/netedit/dialogs/file/CMakeFiles/netedit_dialogs_file.dir/GNEFileSelector.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/options/CMakeFiles/netedit_dialogs_options.dir/GNENetgenerateOptionsDialog.cpp.o
+[ 63%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Richtungspfeildefinition.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEQuestionBasicDialog.cpp.o
+[ 63%] Building CXX object src/netbuild/CMakeFiles/netbuild.dir/NBPTPlatform.cpp.o
+[ 63%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_DataInterval.cpp.o
+[ 63%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Routenentscheidungsdefinition.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/run/CMakeFiles/netedit_dialogs_run.dir/GNERunDialog.cpp.o
+[ 63%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/OverheadWire.cpp.o
+[ 63%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Signalgeberdefinition.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/basic/CMakeFiles/netedit_dialogs_basic.dir/GNEWarningBasicDialog.cpp.o
+[ 63%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Signalgruppendefinition.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/tools/CMakeFiles/netedit_dialogs_tools.dir/GNENetgenerateDialog.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/options/CMakeFiles/netedit_dialogs_options.dir/GNENeteditOptionsDialog.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/fix/CMakeFiles/netedit_dialogs_fix.dir/GNEFixDemandElementsDialog.cpp.o
+[ 63%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_DataSet.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/run/CMakeFiles/netedit_dialogs_run.dir/GNERunNetgenerateDialog.cpp.o
+[ 63%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Simulation.cpp.o
+[ 63%] Building CXX object src/netedit/dialogs/fix/CMakeFiles/netedit_dialogs_fix.dir/GNEFixNetworkElements.cpp.o
+[ 64%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEColorDialog.cpp.o
+[ 64%] Building CXX object src/netedit/dialogs/run/CMakeFiles/netedit_dialogs_run.dir/GNERunPythonToolDialog.cpp.o
+[ 64%] Linking CXX shared library /Users/sumo/clangMacOS_M1/sumo/bin/libtracicppD.dylib
+[ 64%] Built target libtracicpp
+[ 64%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/TrafficLight.cpp.o
+[ 64%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNECalibratorDialog.cpp.o
+[ 64%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_SimRate.cpp.o
+[ 64%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/Vehicle.cpp.o
+[ 64%] Building CXX object src/netedit/dialogs/tools/CMakeFiles/netedit_dialogs_tools.dir/GNEPythonToolDialog.cpp.o
+[ 64%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNEDistributionRefDialog.cpp.o
+[ 64%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEAttributesEditor.cpp.o
+[ 65%] Building CXX object src/libtraci/CMakeFiles/libtracistatic.dir/VehicleType.cpp.o
+[ 65%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNECrashDialog.cpp.o
+[ 65%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_DemandElement.cpp.o
+[ 65%] Building CXX object src/netedit/frames/common/CMakeFiles/netedit_frames_common.dir/GNEInspectorFrame.cpp.o
+[ 65%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEAttributesEditorRow.cpp.o
+[ 65%] Linking CXX static library libnetedit_dialogs_file.a
+[ 65%] Built target netedit_dialogs_file
+[ 65%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEDialog.cpp.o
+[ 65%] Linking CXX static library libnetedit_dialogs_elements_lists.a
+[ 65%] Built target netedit_dialogs_elements_lists
+[ 65%] Building CXX object src/netedit/dialogs/options/CMakeFiles/netedit_dialogs_options.dir/GNEOptionsEditor.cpp.o
+[ 65%] Linking CXX static library libnetbuild.a
+[ 65%] Built target netbuild
+[ 66%] Building CXX object src/netedit/dialogs/tools/CMakeFiles/netedit_dialogs_tools.dir/GNEPythonToolDialogElements.cpp.o
+[ 66%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Edge.cpp.o
+[ 67%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEAdditionalFrame.cpp.o
+[ 67%] Building CXX object src/netedit/frames/common/CMakeFiles/netedit_frames_common.dir/GNESelectorFrame.cpp.o
+[ 67%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_EdgeType.cpp.o
+[ 67%] Linking CXX static library libnetedit_dialogs_basic.a
+[ 67%] Built target netedit_dialogs_basic
+[ 67%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEConnectorFrame.cpp.o
+[ 68%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEDistributionFrame.cpp.o
+[ 68%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNERerouterDialog.cpp.o
+[ 69%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_GenericData.cpp.o
+[ 69%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Simdauer.cpp.o
+[ 69%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNECreateEdgeFrame.cpp.o
+[ 69%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNERouteFrame.cpp.o
+[ 69%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEGeometryPointDialog.cpp.o
+[ 69%] Linking CXX static library /Users/sumo/clangMacOS_M1/sumo/bin/libtracistaticD.a
+[ 69%] Built target libtracistatic
+[ 69%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEAttributesEditorType.cpp.o
+[ 69%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNECrossingFrame.cpp.o
+[ 69%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNERouteDistributionFrame.cpp.o
+[ 69%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEHelpAttributesDialog.cpp.o
+[ 69%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNERerouterIntervalDialog.cpp.o
+[ 69%] Linking CXX static library libnetedit_dialogs_run.a
+[ 69%] Built target netedit_dialogs_run
+[ 69%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Junction.cpp.o
+[ 69%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEDecalFrame.cpp.o
+[ 69%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEStopFrame.cpp.o
+[ 69%] Building CXX object src/netedit/frames/data/CMakeFiles/netedit_frames_data.dir/GNEGenericDataFrame.cpp.o
+[ 69%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEParametersDialog.cpp.o
+[ 69%] Linking CXX static library libnetedit_dialogs_fix.a
+[ 69%] Built target netedit_dialogs_fix
+[ 69%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEProhibitionFrame.cpp.o
+[ 69%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEAttributeCarrier.cpp.o
+[ 69%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_Lane.cpp.o
+[ 69%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Startuhrzeit.cpp.o
+[ 69%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEAccess.cpp.o
+[ 69%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_MeanData.cpp.o
+[ 69%] Building CXX object src/netedit/frames/data/CMakeFiles/netedit_frames_data.dir/GNEEdgeDataFrame.cpp.o
+[ 69%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNECandidateElement.cpp.o
+[ 69%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEDataHandler.cpp.o
+[ 70%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEAdditional.cpp.o
+[ 70%] Building CXX object src/netedit/dialogs/options/CMakeFiles/netedit_dialogs_options.dir/GNEOptionsEditorRow.cpp.o
+[ 70%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEConsecutiveSelector.cpp.o
+[ 70%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNESaveDialog.cpp.o
+[ 70%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEShapeFrame.cpp.o
+[ 70%] Building CXX object src/netedit/frames/common/CMakeFiles/netedit_frames_common.dir/GNEDeleteFrame.cpp.o
+[ 70%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEContour.cpp.o
+[ 70%] Linking CXX static library libnetedit_dialogs_tools.a
+[ 70%] Built target netedit_dialogs_tools
+[ 70%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Startzufallszahl.cpp.o
+[ 70%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEDemandSelector.cpp.o
+[ 70%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEDataSet.cpp.o
+[ 70%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_TAZSourceSink.cpp.o
+[ 70%] Building CXX object src/netedit/frames/common/CMakeFiles/netedit_frames_common.dir/GNEMoveFrame.cpp.o
+[ 70%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_TLS.cpp.o
+[ 71%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNERouteHandler.cpp.o
+[ 71%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEDataInterval.cpp.o
+[ 71%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEAdditionalHandler.cpp.o
+[ 71%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNETAZFrame.cpp.o
+[ 71%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEPersonFrame.cpp.o
+[ 72%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Stauparameterdefinition.cpp.o
+[ 72%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElement.cpp.o
+[ 72%] Building CXX object src/netedit/dialogs/options/CMakeFiles/netedit_dialogs_options.dir/GNESumoOptionsDialog.cpp.o
+[ 72%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNEVariableSpeedSignDialog.cpp.o
+[ 72%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEDrawingShape.cpp.o
+[ 72%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNETLSEditorFrame.cpp.o
+[ 72%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Stauzaehlerdefinition.cpp.o
+[ 72%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEGeneralHandler.cpp.o
+[ 72%] Building CXX object src/netedit/frames/data/CMakeFiles/netedit_frames_data.dir/GNEEdgeRelDataFrame.cpp.o
+[ 72%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEAdditionalListed.cpp.o
+[ 72%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNENetworkElement.cpp.o
+[ 72%] Building CXX object src/netedit/dialogs/CMakeFiles/netedit_dialogs.dir/GNEUndoListDialog.cpp.o
+[ 72%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEGenericData.cpp.o
+[ 72%] Building CXX object src/netedit/frames/network/CMakeFiles/netedit_frames_network.dir/GNEWireFrame.cpp.o
+[ 72%] Built target install_test_dll
+[ 72%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_ToggleAttribute.cpp.o
+[ 72%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEAdditionalSquared.cpp.o
+[ 72%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEEdgeData.cpp.o
+[ 72%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEPlanParents.cpp.o
+[ 72%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEEdge.cpp.o
+[ 72%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Stopschilddefinition.cpp.o
+[ 72%] Building CXX object src/netedit/changes/CMakeFiles/netedit_changes.dir/GNEChange_RegisterJoin.cpp.o
+[ 72%] Building CXX object unittest/src/utils/threadpool/CMakeFiles/testthreadpool.dir/ThreadPoolTest.cpp.o
+[ 72%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEPersonPlanFrame.cpp.o
+[ 72%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEHierarchicalElement.cpp.o
+[ 72%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEElementTree.cpp.o
+[ 72%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Streckendefinition.cpp.o
+[ 72%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementConnection.cpp.o
+[ 72%] Linking CXX static library libnetedit_frames_common.a
+[ 72%] Built target netedit_frames_common
+[ 72%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEEdgeRelData.cpp.o
+[ 72%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEBusStop.cpp.o
+[ 72%] Linking CXX static library libnetedit_dialogs_options.a
+[ 72%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEContainerFrame.cpp.o
+[ 72%] Built target netedit_dialogs_options
+[ 72%] Building CXX object src/netedit/frames/data/CMakeFiles/netedit_frames_data.dir/GNETAZRelDataFrame.cpp.o
+[ 72%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testthreadpool
+[ 72%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNETAZRelData.cpp.o
+[ 72%] Built target testthreadpool
+[ 73%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEFrame.cpp.o
+[ 73%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Streckentypdefinition.cpp.o
+[ 73%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEContainerPlanFrame.cpp.o
+[ 73%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEHierarchicalStructureChildren.cpp.o
+[ 73%] Building CXX object src/netedit/dialogs/elements/CMakeFiles/netedit_dialogs_elements.dir/GNEVehicleTypeDialog.cpp.o
+[ 73%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEMeanDataHandler.cpp.o
+[ 73%] Building CXX object unittest/src/netbuild/CMakeFiles/testnetbuild.dir/NBHeightMapperTest.cpp.o
+[ 73%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEHierarchicalStructureParents.cpp.o
+[ 73%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNEVehicleFrame.cpp.o
+[ 74%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementCrossing.cpp.o
+[ 74%] Building CXX object unittest/src/netbuild/CMakeFiles/testnetbuild.dir/NBTrafficLightLogicTest.cpp.o
+[ 74%] Linking CXX static library libnetedit_dialogs.a
+[ 74%] Built target netedit_dialogs
+[ 74%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNECalibrator.cpp.o
+[ 74%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNELane.cpp.o
+[ 75%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Edge.cpp.o
+[ 75%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_TEAPACDefinition.cpp.o
+[ 75%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementEdge.cpp.o
+[ 75%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNECalibratorFlow.cpp.o
+[ 75%] Building CXX object src/netedit/elements/CMakeFiles/netedit_elements.dir/GNEPathElement.cpp.o
+[ 75%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEMatchAttribute.cpp.o
+[ 75%] Linking CXX static library libnetedit_frames_network.a
+[ 75%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Helper.cpp.o
+[ 75%] Built target netedit_frames_network
+[ 75%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_VWunschentscheidungsdefinition.cpp.o
+[ 75%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEDemandElement.cpp.o
+[ 75%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEChargingStation.cpp.o
+[ 75%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testnetbuildD
+ld: warning: ignoring duplicate libraries: '/opt/homebrew/lib/libgtest.a'
+[ 75%] Built target testnetbuild
+[ 75%] Building CXX object src/netedit/frames/data/CMakeFiles/netedit_frames_data.dir/GNEMeanDataFrame.cpp.o
+[ 75%] Linking CXX static library libnetedit_changes.a
+[ 75%] Built target netedit_changes
+[ 75%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEEdgeTemplate.cpp.o
+[ 75%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSBaseVehicle.cpp.o
+[ 75%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEDemandElementFlow.cpp.o
+[ 75%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEClosingLaneReroute.cpp.o
+[ 75%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNELaneTemplate.cpp.o
+[ 75%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSEdge.cpp.o
+[ 75%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/InductionLoop.cpp.o
+[ 75%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNETypeFrame.cpp.o
+[ 75%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Verbindungsdefinition.cpp.o
+[ 75%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEInternalLane.cpp.o
+[ 75%] Building CXX object src/netedit/elements/data/CMakeFiles/netedit_elements_data.dir/GNEMeanData.cpp.o
+[ 75%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSEdgeControl.cpp.o
+[ 75%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Junction.cpp.o
+[ 75%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEClosingReroute.cpp.o
+[ 75%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEOverlappedInspection.cpp.o
+[ 75%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEDemandElementPlan.cpp.o
+[ 75%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSEdgeWeightsStorage.cpp.o
+[ 75%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Verkehrszusammensetzungsdefinition.cpp.o
+[ 75%] Linking CXX static library libnetedit_elements.a
+[ 75%] Built target netedit_elements
+[ 75%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEConnection.cpp.o
+[ 76%] Linking CXX static library libnetedit_dialogs_elements.a
+[ 76%] Built target netedit_dialogs_elements
+[ 76%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEContainerStop.cpp.o
+[ 76%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Lane.cpp.o
+[ 76%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEPathCreator.cpp.o
+[ 76%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNECrossing.cpp.o
+[ 76%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEDestProbReroute.cpp.o
+[ 76%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementJunction.cpp.o
+[ 76%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Verlustzeitmessungsdefinition.cpp.o
+[ 76%] Building CXX object src/netedit/frames/demand/CMakeFiles/netedit_frames_demand.dir/GNETypeDistributionFrame.cpp.o
+[ 77%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEDetector.cpp.o
+[ 77%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/LaneArea.cpp.o
+[ 77%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServer.cpp.o
+[ 77%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementLane.cpp.o
+[ 77%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Zeitenverteilungsdefinition.cpp.o
+[ 77%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNERoute.cpp.o
+[ 78%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSEventControl.cpp.o
+[ 78%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNERouteRef.cpp.o
+[ 78%] Linking CXX static library libnetedit_frames_data.a
+[ 78%] Built target netedit_frames_data
+[ 78%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementLaneDouble.cpp.o
+[ 79%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEWalkingArea.cpp.o
+[ 79%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/MultiEntryExit.cpp.o
+[ 79%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNERouteDistribution.cpp.o
+[ 79%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementLaneSingle.cpp.o
+[ 79%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSDynamicShapeUpdater.cpp.o
+[ 79%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Zeitschrittfaktor.cpp.o
+[ 79%] Linking CXX static library libnetedit_frames_demand.a
+[ 79%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Person.cpp.o
+[ 79%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEEntryExitDetector.cpp.o
+[ 79%] Built target netedit_frames_demand
+[ 79%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/POI.cpp.o
+[ 80%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Zuflussdefinition.cpp.o
+[ 80%] Linking CXX static library libnetedit_elements_data.a
+[ 80%] Built target netedit_elements_data
+[ 80%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementPlan.cpp.o
+[ 80%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEPathLegendModule.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/od2trips.dir/od2trips_main.cpp.o
+[ 80%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser_Zusammensetzungsdefinition.cpp.o
+[ 80%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEJunction.cpp.o
+[ 80%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Edge.cpp.o
+[ 80%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementPlanParent.cpp.o
+[ 80%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNEEdgeType.cpp.o
+[ 80%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSFrame.cpp.o
+[ 80%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEVType.cpp.o
+[ 80%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementShape.cpp.o
+[ 80%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSGlobals.cpp.o
+[ 80%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEVTypeRef.cpp.o
+[ 80%] Building CXX object src/netedit/elements/network/CMakeFiles/netedit_elements_network.dir/GNELaneType.cpp.o
+[ 80%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEPlanCreator.cpp.o
+[ 80%] Building CXX object src/activitygen/CMakeFiles/activitygen.dir/activitygen_main.cpp.o
+[ 80%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Polygon.cpp.o
+[ 80%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEVTypeDistribution.cpp.o
+[ 80%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSInsertionControl.cpp.o
+[ 80%] Building CXX object src/activitygen/CMakeFiles/activitygen.dir/AGActivityGen.cpp.o
+[ 80%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser__XKurvedefinition.cpp.o
+[ 80%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/dfrouter_main.cpp.o
+[ 80%] Building CXX object src/netimport/vissim/typeloader/CMakeFiles/netimport_vissim_typeloader.dir/NIVissimSingleTypeParser__XVerteilungsdefinition.cpp.o
+[ 80%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_InductionLoop.cpp.o
+[ 80%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFDetFlowLoader.cpp.o
+[ 80%] Building CXX object src/duarouter/CMakeFiles/duarouter.dir/duarouter_main.cpp.o
+[ 80%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/od2tripsD
+[ 80%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEPlanCreatorLegend.cpp.o
+[ 80%] Built target od2trips
+[ 81%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Junction.cpp.o
+[ 81%] Building CXX object src/duarouter/CMakeFiles/duarouter.dir/RODUAEdgeBuilder.cpp.o
+[ 81%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSInternalJunction.cpp.o
+[ 81%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEInductionLoopDetector.cpp.o
+[ 81%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Lane.cpp.o
+[ 81%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFDetector.cpp.o
+[ 81%] Building CXX object src/activitygen/CMakeFiles/activitygen.dir/AGActivityGenHandler.cpp.o
+[ 81%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_MultiEntryExit.cpp.o
+[ 81%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEInstantInductionLoopDetector.cpp.o
+[ 81%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFDetectorFlow.cpp.o
+[ 81%] Linking CXX static library libnetimport_vissim_typeloader.a
+[ 81%] Built target netimport_vissim_typeloader
+[ 81%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSJunction.cpp.o
+[ 81%] Building CXX object src/activitygen/CMakeFiles/activitygen.dir/AGActivityTripWriter.cpp.o
+[ 81%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_LaneArea.cpp.o
+[ 81%] Building CXX object src/duarouter/CMakeFiles/duarouter.dir/RODUAFrame.cpp.o
+[ 81%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNELaneAreaDetector.cpp.o
+[ 81%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementVehicle.cpp.o
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/jtrrouter_main.cpp.o
+[ 82%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEPlanSelector.cpp.o
+[ 82%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Route.cpp.o
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/ROJTREdge.cpp.o
+[ 82%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNESelectorParent.cpp.o
+[ 82%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEMultiEntryExitDetector.cpp.o
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/ROJTREdgeBuilder.cpp.o
+[ 82%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNETLSTable.cpp.o
+[ 82%] Building CXX object src/libtraci/CMakeFiles/libtracics.dir/Eclipse.Sumo.Libtraci/libtraciCSHARP_wrap.cxx.o
+[ 82%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEVehicle.cpp.o
+[ 82%] Linking CXX static library libnetedit_elements_network.a
+[ 82%] Built target netedit_elements_network
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/ROJTRRouter.cpp.o
+[ 82%] Building CXX object src/activitygen/CMakeFiles/activitygen.dir/AGFrame.cpp.o
+[ 82%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNETagSelector.cpp.o
+[ 82%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Calibrator.cpp.o
+[ 82%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Person.cpp.o
+[ 82%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSJunctionControl.cpp.o
+[ 82%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementView.cpp.o
+[ 82%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEOverheadWire.cpp.o
+[ 82%] Building CXX object src/libtraci/CMakeFiles/libtraci.dir/libtraciPYTHON_wrap.cxx.o
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/ROJTRTurnDefLoader.cpp.o
+[ 82%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveElementViewResizable.cpp.o
+[ 82%] Building CXX object src/marouter/CMakeFiles/marouter.dir/marouter_main.cpp.o
+[ 82%] Building CXX object src/jtrrouter/CMakeFiles/jtrrouter.dir/ROJTRFrame.cpp.o
+[ 82%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFDetectorHandler.cpp.o
+[ 82%] Building CXX object src/marouter/CMakeFiles/marouter.dir/ROMAAssignments.cpp.o
+[ 82%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEParkingArea.cpp.o
+[ 83%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/BusStop.cpp.o
+[ 83%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEParkingAreaReroute.cpp.o
+[ 83%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/netgen_main.cpp.o
+[ 83%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/activitygenD
+[ 83%] Built target activitygen
+[ 84%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFNet.cpp.o
+[ 84%] Building CXX object src/netedit/frames/CMakeFiles/netedit_frames.dir/GNEViewObjectSelector.cpp.o
+[ 84%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSJunctionLogic.cpp.o
+[ 84%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_POI.cpp.o
+[ 84%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/NGEdge.cpp.o
+[ 84%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFRouteCont.cpp.o
+[ 85%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveOffset.cpp.o
+[ 85%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Polygon.cpp.o
+[ 85%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/ParkingArea.cpp.o
+[ 85%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFEdgeBuilder.cpp.o
+[ 85%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEParkingSpace.cpp.o
+[ 85%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/NGFrame.cpp.o
+[ 85%] Building CXX object src/traci_testclient/CMakeFiles/TraCITestClient.dir/tracitestclient_main.cpp.o
+[ 85%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/ChargingStation.cpp.o
+[ 85%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFEdge.cpp.o
+[ 85%] Building CXX object src/marouter/CMakeFiles/marouter.dir/ROMAEdge.cpp.o
+[ 85%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLane.cpp.o
+[ 85%] Building CXX object src/traci_testclient/CMakeFiles/TraCITestClient.dir/TraCITestClient.cpp.o
+[ 85%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/duarouterD
+[ 85%] Built target duarouter
+[ 85%] Building CXX object src/dfrouter/CMakeFiles/dfrouter.dir/RODFFrame.cpp.o
+[ 85%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/NGNet.cpp.o
+[ 86%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEStop.cpp.o
+[ 86%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveOperation.cpp.o
+[ 86%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLaneChanger.cpp.o
+[ 86%] Building CXX object src/traci_testclient/CMakeFiles/testlibtraci.dir/testlibtraci_main.cpp.o
+[ 86%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLaneChangerSublane.cpp.o
+[ 86%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/jtrrouterD
+[ 86%] Built target jtrrouter
+[ 86%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/RouteProbe.cpp.o
+[ 86%] Building CXX object src/marouter/CMakeFiles/marouter.dir/ROMAEdgeBuilder.cpp.o
+[ 86%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/TraCITestClientD
+[ 86%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testlibtraciD
+[ 86%] Built target TraCITestClient
+[ 86%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEPOI.cpp.o
+[ 86%] Built target testlibtraci
+[ 87%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLink.cpp.o
+[ 87%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/NGNode.cpp.o
+[ 87%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEStopPlan.cpp.o
+[ 87%] Building CXX object src/marouter/CMakeFiles/marouter.dir/ROMAFrame.cpp.o
+[ 87%] Building CXX object src/netgen/CMakeFiles/netgenerate.dir/NGRandomNetBuilder.cpp.o
+[ 87%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/FileHelpersTest.cpp.o
+[ 87%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEPerson.cpp.o
+[ 87%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLogicJunction.cpp.o
+[ 88%] Linking CXX static library libnetedit_frames.a
+[ 88%] Building CXX object unittest/src/utils/geom/CMakeFiles/testgeom.dir/BoundaryTest.cpp.o
+[ 88%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEPoly.cpp.o
+[ 88%] Built target netedit_frames
+[ 88%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSMoveReminder.cpp.o
+[ 88%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/RandHelperTest.cpp.o
+[ 88%] Building CXX object src/marouter/CMakeFiles/marouter.dir/ROMARouteHandler.cpp.o
+[ 88%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/RGBColorTest.cpp.o
+[ 88%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Route.cpp.o
+[ 88%] Building CXX object unittest/src/utils/foxtools/CMakeFiles/testfoxtools.dir/MFXWorkerThreadTest.cpp.o
+[ 88%] Building CXX object unittest/src/utils/geom/CMakeFiles/testgeom.dir/GeoConvHelperTest.cpp.o
+[ 88%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/StringTokenizerTest.cpp.o
+[ 89%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNERerouter.cpp.o
+[ 89%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Rerouter.cpp.o
+[ 89%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNERerouterInterval.cpp.o
+[ 89%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/StringUtilsTest.cpp.o
+[ 89%] Building CXX object unittest/src/utils/geom/CMakeFiles/testgeom.dir/PositionVectorTest.cpp.o
+[ 89%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/dfrouterD
+[ 89%] Built target dfrouter
+[ 89%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEPersonTrip.cpp.o
+[ 89%] Building CXX object src/netedit/elements/moving/CMakeFiles/netedit_elements_moving.dir/GNEMoveResult.cpp.o
+[ 89%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Calibrator.cpp.o
+[ 89%] Building CXX object src/CMakeFiles/netconvert.dir/netconvert_main.cpp.o
+[ 89%] Building CXX object unittest/src/utils/geom/CMakeFiles/testgeom.dir/GeomHelperTest.cpp.o
+[ 89%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSNet.cpp.o
+[ 89%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEWalk.cpp.o
+[ 90%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testfoxtoolsD
+ld: warning: ignoring duplicate libraries: '/opt/homebrew/lib/libgtest.a'
+[ 90%] Building CXX object unittest/src/utils/common/CMakeFiles/testcommon.dir/ValueTimeLineTest.cpp.o
+[ 90%] Built target testfoxtools
+[ 90%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_BusStop.cpp.o
+[ 90%] Linking CXX static library libnetedit_elements_moving.a
+[ 90%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNERide.cpp.o
+[ 90%] Built target netedit_elements_moving
+[ 90%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNERerouterSymbol.cpp.o
+[ 90%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_ParkingArea.cpp.o
+[ 90%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/netgenerateD
+[ 90%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNEContainer.cpp.o
+[ 90%] Built target netgenerate
+[ 90%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/VariableSpeedSign.cpp.o
+[ 90%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_ChargingStation.cpp.o
+[ 90%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNETranship.cpp.o
+[ 90%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSNoLogicJunction.cpp.o
+[ 90%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNERouteProbe.cpp.o
+[ 90%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testcommonD
+ld: warning: ignoring duplicate libraries: '../../../../src/utils/common/libutils_common.a', '../../../../src/utils/iodevices/libutils_iodevices.a', '/opt/homebrew/lib/libgtest.a'
+[ 90%] Built target testcommon
+[ 90%] Building CXX object src/netedit/elements/demand/CMakeFiles/netedit_elements_demand.dir/GNETransport.cpp.o
+[ 90%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/MeanData.cpp.o
+[ 90%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/marouterD
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_RouteProbe.cpp.o
+[ 91%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/OverheadWire.cpp.o
+[ 91%] Built target marouter
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNERouteProbReroute.cpp.o
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Rerouter.cpp.o
+[ 91%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Simulation.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSRightOfWayJunction.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEStoppingPlace.cpp.o
+[ 91%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testgeomD
+ld: warning: ignoring duplicate libraries: '../../../../src/utils/geom/libutils_geom.a', '/opt/homebrew/lib/libgtest.a'
+[ 91%] Built target testgeom
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_VariableSpeedSign.cpp.o
+[ 91%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/TrafficLight.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSRoute.cpp.o
+[ 91%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/netconvertD
+[ 91%] Built target netconvert
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_MeanData.cpp.o
+[ 91%] Linking CXX shared module /Users/sumo/clangMacOS_M1/sumo/bin/libtracics.dylib
+[ 91%] Built target libtracics
+[ 91%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/Vehicle.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNETAZ.cpp.o
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_OverheadWire.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSRouteHandler.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNETAZSourceSink.cpp.o
+[ 91%] Building CXX object src/libsumo/CMakeFiles/libsumostatic.dir/VehicleType.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNETractionSubstation.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSStop.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSStoppingPlace.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEVaporizer.cpp.o
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Simulation.cpp.o
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEVariableSpeedSign.cpp.o
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_TrafficLight.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSParkingArea.cpp.o
+[ 91%] Linking CXX shared module /Users/sumo/clangMacOS_M1/sumo/bin/_libtraci.so
+[ 91%] Built target libtraci
+[ 91%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEVariableSpeedSignStep.cpp.o
+[ 91%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSVehicle.cpp.o
+[ 91%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_Vehicle.cpp.o
+[ 92%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSLeaderInfo.cpp.o
+[ 93%] Building CXX object src/netedit/elements/additional/CMakeFiles/netedit_elements_additional.dir/GNEVariableSpeedSignSymbol.cpp.o
+[ 93%] Linking CXX static library libnetedit_elements_demand.a
+[ 93%] Built target netedit_elements_demand
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSVehicleContainer.cpp.o
+[ 93%] Building CXX object src/traci-server/CMakeFiles/traciserver.dir/TraCIServerAPI_VehicleType.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSVehicleControl.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSVehicleTransfer.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSVehicleType.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSStateHandler.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSDriverState.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/Command_RouteReplacement.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSTrainHelper.cpp.o
+[ 93%] Building CXX object src/microsim/CMakeFiles/microsim.dir/MSStopOptimizer.cpp.o
+[ 94%] Linking CXX static library /Users/sumo/clangMacOS_M1/sumo/bin/libsumostaticD.a
+[ 94%] Built target libsumostatic
+[ 94%] Linking CXX static library libnetedit_elements_additional.a
+[ 94%] Linking CXX static library libtraciserver.a
+/Users/sumo/clangMacOS_M1/sumo/src/microsim/MSStopOptimizer.cpp:191:21: warning: use of unary operator that may be intended as compound assignment (+=)
+  191 |         skippedPrio =+ next.priority;
+      |                     ^~
+[ 94%] Built target traciserver
+[ 94%] Built target netedit_elements_additional
+1 warning generated.
+[ 94%] Linking CXX static library libmicrosim.a
+[ 94%] Built target microsim
+[ 95%] Building CXX object src/libsumo/CMakeFiles/libsumocs.dir/Eclipse.Sumo.Libsumo/libsumoCSHARP_wrap.cxx.o
+[ 95%] Building CXX object src/traci_testclient/CMakeFiles/testlibsumostatic.dir/testlibsumo_main.cpp.o
+[ 95%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Helper.cpp.o
+[ 95%] Building CXX object src/libsumo/CMakeFiles/libsumojni.dir/java/libsumoJAVA_wrap.cxx.o
+[ 95%] Building CXX object src/libsumo/CMakeFiles/libsumo.dir/libsumoPYTHON_wrap.cxx.o
+[ 95%] Building CXX object src/CMakeFiles/sumo-gui.dir/guisim_main.cpp.o
+[ 95%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Edge.cpp.o
+[ 96%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/InductionLoop.cpp.o
+[ 97%] Building CXX object unittest/src/microsim/CMakeFiles/testmicrosim.dir/MSEventControlTest.cpp.o
+[ 98%] Building CXX object src/CMakeFiles/sumo.dir/sumo_main.cpp.o
+[ 98%] Building CXX object unittest/src/microsim/CMakeFiles/testmicrosim.dir/MSCFModelTest.cpp.o
+[ 98%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Lane.cpp.o
+[ 98%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Polygon.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/ChargingStation.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/RouteProbe.cpp.o
+[ 99%] Building CXX object unittest/src/microsim/CMakeFiles/testmicrosim.dir/MSCFModel_IDMTest.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Person.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/POI.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Calibrator.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/BusStop.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Rerouter.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/MultiEntryExit.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/LaneArea.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/ParkingArea.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/VariableSpeedSign.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/MeanData.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Simulation.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/TrafficLight.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Vehicle.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Junction.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/Route.cpp.o
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/OverheadWire.cpp.o
+[ 99%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testlibsumostaticD
+ld: warning: ignoring duplicate libraries: '../gui/libgui.a', '../microsim/cfmodels/libmicrosim_cfmodels.a', '../microsim/devices/libmicrosim_devices.a', '../microsim/engine/libmicrosim_engine.a', '../microsim/lcmodels/libmicrosim_lcmodels.a', '../microsim/libmicrosim.a', '../microsim/output/libmicrosim_output.a', '../microsim/traffic_lights/libmicrosim_traffic_lights.a', '../microsim/transportables/libmicrosim_transportables.a', '../traci-server/libtraciserver.a', '../utils/traction_wire/libutils_traction_wire.a', '/Users/sumo/clangMacOS_M1/sumo/bin/libsumoguistaticD.a'
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/VehicleType.cpp.o
+[ 99%] Built target testlibsumostatic
+[ 99%] Building CXX object src/libsumo/CMakeFiles/libsumocpp.dir/GUI.cpp.o
+[ 99%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/sumoD
+ld: warning: ignoring duplicate libraries: 'microsim/libmicrosim.a', 'traci-server/libtraciserver.a'
+[ 99%] Built target sumo
+[ 99%] Generating templates.h
+[ 99%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/sumo-guiD
+ld: warning: ignoring duplicate libraries: 'gui/libgui.a', 'microsim/libmicrosim.a', 'traci-server/libtraciserver.a', 'utils/traction_wire/libutils_traction_wire.a'
+Cannot generate tool template for drtOrtools: 'Traceback (most recent call last):
+  File "/Users/sumo/clangMacOS_M1/sumo/tools/build_config/../drt/drtOrtools.py", line 32, in <module>
+    import ortools_pdp
+  File "/Users/sumo/clangMacOS_M1/sumo/tools/drt/ortools_pdp.py", line 31, in <module>
+    from ortools.constraint_solver import routing_enums_pb2
+ModuleNotFoundError: No module named 'ortools'
+'.
+[ 99%] Built target sumo-gui
+[ 99%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testmicrosimD
+ld: warning: ignoring duplicate libraries: '../../../src/foreign/tcpip/libforeign_tcpip.a', '../../../src/mesosim/libmesosim.a', '../../../src/microsim/libmicrosim.a', '../../../src/utils/common/libutils_common.a', '../../../src/utils/distribution/libutils_distribution.a', '../../../src/utils/geom/libutils_geom.a', '../../../src/utils/handlers/libutils_handlers.a', '../../../src/utils/importio/libutils_importio.a', '../../../src/utils/iodevices/libutils_iodevices.a', '../../../src/utils/options/libutils_options.a', '../../../src/utils/shapes/libutils_shapes.a', '../../../src/utils/traction_wire/libutils_traction_wire.a', '../../../src/utils/xml/libutils_xml.a', '/opt/homebrew/lib/libgtest.a'
+[ 99%] Built target testmicrosim
+[ 99%] Linking CXX shared library /Users/sumo/clangMacOS_M1/sumo/bin/libsumocppD.dylib
+ld: warning: ignoring duplicate libraries: '-lFOX-1.6', '-lGL', '-lGLU', '-lX11', '-lXcursor', '-lXext', '-lXfixes', '-lXft', '-lXi', '-lXrandr', '-lXrender', '-lbz2', '-ldl', '-lfontconfig', '-lfreetype', '-ljpeg', '-lpng', '-lpthread', '-ltiff', '-lz', '../foreign/PHEMlight/V5/cpp/libforeign_phemlight_V5.a', '../foreign/PHEMlight/cpp/libforeign_phemlight.a', '../foreign/tcpip/libforeign_tcpip.a', '../gui/libgui.a', '../mesosim/libmesosim.a', '../microsim/actions/libmicrosim_actions.a', '../microsim/cfmodels/libmicrosim_cfmodels.a', '../microsim/devices/libmicrosim_devices.a', '../microsim/engine/libmicrosim_engine.a', '../microsim/lcmodels/libmicrosim_lcmodels.a', '../microsim/libmicrosim.a', '../microsim/output/libmicrosim_output.a', '../microsim/traffic_lights/libmicrosim_traffic_lights.a', '../microsim/transportables/libmicrosim_transportables.a', '../microsim/trigger/libmicrosim_trigger.a', '../netload/libnetload.a', '../traci-server/libtraciserver.a', '../utils/common/libutils_common.a', '../utils/distribution/libutils_distribution.a', '../utils/emissions/libutils_emissions.a', '../utils/geom/libutils_geom.a', '../utils/handlers/libutils_handlers.a', '../utils/importio/libutils_importio.a', '../utils/iodevices/libutils_iodevices.a', '../utils/options/libutils_options.a', '../utils/shapes/libutils_shapes.a', '../utils/traction_wire/libutils_traction_wire.a', '../utils/vehicle/libutils_vehicle.a', '../utils/xml/libutils_xml.a'
+Cannot generate tool template for protobuf2xml: 'Traceback (most recent call last):
+  File "/Users/sumo/clangMacOS_M1/sumo/tools/build_config/../xml/protobuf2xml.py", line 32, in <module>
+    import google.protobuf.descriptor  # we need to do this late because the xml2protobuf import modifies sys.path
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'google'
+'.
+[ 99%] Built target libsumocpp
+[ 99%] Building CXX object src/traci_testclient/CMakeFiles/testlibsumo.dir/testlibsumo_main.cpp.o
+[ 99%] Building C object src/fmi/CMakeFiles/libsumofmi2.dir/fmi2Functions.c.o
+[ 99%] Building C object src/fmi/CMakeFiles/libsumofmi2.dir/sumo2fmi_bridge.c.o
+[ 99%] Building CXX object src/fmi/CMakeFiles/libsumofmi2.dir/libsumocpp2c.cpp.o
+Could not generate tool templates for drtOrtools, protobuf2xml.
+Warning: Could not set locale to 'C'.
+[ 99%] Linking CXX shared library /Users/sumo/clangMacOS_M1/sumo/bin/libsumofmi2D.dylib
+[ 99%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/testlibsumoD
+[ 99%] Built target libsumofmi2
+[ 99%] Built target testlibsumo
+[ 99%] Built target prepfmi
+Warning: Could not set locale to 'C'.
+Obtaining tool templates.
+Obtaining 'edgeDataFromFlow' tool template.
+Obtaining 'flowFromEdgeData' tool template.
+Obtaining 'mapDetectors' tool template.
+Obtaining 'filterDistricts' tool template.
+Obtaining 'gridDistricts' tool template.
+Obtaining 'stationDistricts' tool template.
+Obtaining 'drtOrtools' tool template.
+Obtaining 'citybrain_flow' tool template.
+Obtaining 'citybrain_infostep' tool template.
+Obtaining 'citybrain_road' tool template.
+Obtaining 'dxf2jupedsim' tool template.
+Obtaining 'gtfs2fcd' tool template.
+Obtaining 'gtfs2pt' tool template.
+Obtaining 'vissim_parseRoutes' tool template.
+Obtaining 'visum_convertEdgeTypes' tool template.
+Obtaining 'abstractRail' tool template.
+Obtaining 'createRoundaboutConnections' tool template.
+Obtaining 'net2geojson' tool template.
+Obtaining 'net2jpsgeometry' tool template.
+Obtaining 'net2kml' tool template.
+Obtaining 'net2poly' tool template.
+Obtaining 'netcheck' tool template.
+Obtaining 'netdiff' tool template.
+Obtaining 'netmatch' tool template.
+Obtaining 'network_statistics' tool template.
+Obtaining 'reduceLanes' tool template.
+Obtaining 'split_at_stops' tool template.
+Obtaining 'addStopDelay' tool template.
+Obtaining 'addStops2Routes' tool template.
+Obtaining 'addTAZ' tool template.
+Obtaining 'checkStopOrder' tool template.
+Obtaining 'implausibleRoutes' tool template.
+Obtaining 'route2OD' tool template.
+Obtaining 'route2poly' tool template.
+Obtaining 'route2sel' tool template.
+Obtaining 'routecheck' tool template.
+Obtaining 'routecompare' tool template.
+Obtaining 'routeStats' tool template.
+Obtaining 'scaleTimeLine' tool template.
+Obtaining 'sort_routes' tool template.
+Obtaining 'splitRandom' tool template.
+Obtaining 'splitRouteFiles' tool template.
+Obtaining 'tracegenerator' tool template.
+Obtaining 'tracemapper' tool template.
+Obtaining 'aggregateBatteryOutput' tool template.
+Obtaining 'analyze_pedestrian_jam' tool template.
+Obtaining 'analyze_teleports' tool template.
+Obtaining 'attributeStats' tool template.
+Obtaining 'attributeDiff' tool template.
+Obtaining 'attributeCompare' tool template.
+Obtaining 'computeCoordination' tool template.
+Obtaining 'computePassengerCounts' tool template.
+Obtaining 'computeStoppingPlaceUsage' tool template.
+Obtaining 'countLaneChanges' tool template.
+Obtaining 'edgeDataDiff' tool template.
+Obtaining 'fcdDiff' tool template.
+Obtaining 'generateTLSE2Detectors' tool template.
+Obtaining 'parkingSearchTraffic' tool template.
+Obtaining 'scheduleStats' tool template.
+Obtaining 'stopOrder' tool template.
+Obtaining 'tripinfoByType' tool template.
+Obtaining 'vehLanes' tool template.
+Obtaining 'vehrouteCountValidation' tool template.
+Obtaining 'vehrouteDiff' tool template.
+Obtaining 'walkFactor' tool template.
+Obtaining 'circlePolygon' tool template.
+Obtaining 'createTlsCsv' tool template.
+Obtaining 'tls_csvSignalGroups' tool template.
+Obtaining 'generateTurnRatios' tool template.
+Obtaining 'turnCount2EdgeCount' tool template.
+Obtaining 'turnFile2EdgeRelations' tool template.
+Obtaining 'plot_csv_bars' tool template.
+Obtaining 'plot_csv_pie' tool template.
+Obtaining 'plot_csv_timeline' tool template.
+Obtaining 'plot_net_dump' tool template.
+Obtaining 'plot_net_selection' tool template.
+Obtaining 'plot_net_speeds' tool template.
+Obtaining 'plot_net_trafficLights' tool template.
+Obtaining 'plot_summary' tool template.
+Obtaining 'plotXMLAttributes' tool template.
+Obtaining 'csv2xml' tool template.
+Obtaining 'xml2csv' tool template.
+Obtaining 'changeAttribute' tool template.
+Obtaining 'filterElements' tool template.
+Obtaining 'countEdgeUsage' tool template.
+Obtaining 'createVehTypeDistribution' tool template.
+Obtaining 'edgesInDistricts' tool template.
+Obtaining 'fcdReplay' tool template.
+Obtaining 'findAllRoutes' tool template.
+Obtaining 'generateBidiDistricts' tool template.
+Obtaining 'generateContinuousRerouters' tool template.
+Obtaining 'generateParkingAreaRerouters' tool template.
+Obtaining 'generateParkingAreas' tool template.
+Obtaining 'generateRailSignalConstraints' tool template.
+Obtaining 'generateRerouters' tool template.
+Obtaining 'osmGet' tool template.
+Obtaining 'plot_trajectories' tool template.
+Obtaining 'ptlines2flows' tool template.
+Obtaining 'randomTrips' tool template.
+Obtaining 'routeSampler' tool template.
+Obtaining 'runSeeds' tool template.
+Obtaining 'stateReplay' tool template.
+Obtaining 'tileGet' tool template.
+Obtaining 'tlsCoordinator' tool template.
+Obtaining 'tlsCycleAdaptation' tool template.
+Obtaining 'jtcrouter' tool template.
+Obtaining 'distributeChargingStations' tool template.
+Obtaining 'traceExporter' tool template.
+Obtaining 'createScreenshotSequence' tool template.
+Obtaining 'averageTripStatistics' tool template.
+Obtaining 'generateLandmarks' tool template.
+Obtaining 'duaIterateMix' tool template.
+Obtaining 'duaIterate_analysis' tool template.
+Obtaining 'duaIterate_reroutingAnalysis' tool template.
+Obtaining 'one-shot' tool template.
+Obtaining 'costFunctionChecker' tool template.
+Obtaining 'duaIterate' tool template.
+Obtaining 'aggregateFlows' tool template.
+Obtaining 'filterFlows' tool template.
+Obtaining 'flowFromRoutes' tool template.
+Obtaining 'flowrouter' tool template.
+Obtaining 'routeUsage' tool template.
+Obtaining 'validate' tool template.
+Obtaining 'plotFlows' tool template.
+Obtaining 'drtOnline' tool template.
+Obtaining 'matsim_importPlans' tool template.
+Obtaining 'osmTaxiStop' tool template.
+Obtaining 'convert_detectors2SUMO' tool template.
+Obtaining 'convert_vissimXML_flows_statRoutes' tool template.
+Obtaining 'tls_vissimXML2SUMOnet_update' tool template.
+Obtaining 'vissim2poly' tool template.
+Obtaining 'vissim_parseBusStops' tool template.
+Obtaining 'visum_convertRoutes' tool template.
+Obtaining 'visum_convertTurnPercentages' tool template.
+Obtaining 'visum_parseZaehlstelle' tool template.
+Obtaining 'signal_POIs_from_xodr' tool template.
+Obtaining 'generateMeanDataDefinitions' tool template.
+Obtaining 'edgeDepartDelay' tool template.
+Obtaining 'vehroute2amitranOD' tool template.
+Obtaining 'tripinfoByTAZ' tool template.
+Obtaining 'tripinfoDiff' tool template.
+Obtaining 'route_departOffset' tool template.
+Obtaining 'cutTrips' tool template.
+Obtaining 'driveways2poly' tool template.
+Obtaining 'addParkingAreaStops2Trips' tool template.
+Obtaining 'analyzePersonPlans' tool template.
+Obtaining 'addParkingAreaStops2Routes' tool template.
+Obtaining 'cutRoutes' tool template.
+Obtaining 'route2alts' tool template.
+Obtaining 'route_1htoDay' tool template.
+Obtaining 'geoTrip2POI' tool template.
+Obtaining 'macrOutput' tool template.
+Obtaining 'plotWKT' tool template.
+Obtaining 'protobuf2xml' tool template.
+Obtaining 'xml2protobuf' tool template.
+Obtaining 'aggregateAndSplitMatrices' tool template.
+Obtaining 'countConnectionsInDistricts' tool template.
+Obtaining 'districtMapper' tool template.
+Obtaining 'hbefa2sumo' tool template.
+Obtaining 'buildFullGraph' tool template.
+Obtaining 'generateStationEdges' tool template.
+Obtaining 'patchVClasses' tool template.
+Obtaining 'poly2edgedata' tool template.
+Obtaining 'buildTransitions' tool template.
+Obtaining 'tls_csv2SUMO' tool template.
+Obtaining 'csv2vss' tool template.
+Obtaining 'meandata2vss' tool template.
+Obtaining sumo template
+Obtaining netgenerate template
+[ 99%] Built target generate-templates-h
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEApplicationWindow.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEApplicationWindowHelper.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEAttributeProperties.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEExternalRunner.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEInternalTest.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNELane2laneConnection.cpp.o
+[ 99%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNELoadThread.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNENet.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNENetHelper.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEPathManager.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNESegment.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNETagProperties.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNETagPropertiesDatabase.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEUndoList.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEViewNetHelper.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEViewNet.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/netedit_main.cpp.o
+[100%] Building CXX object src/netedit/CMakeFiles/netedit.dir/GNEViewParent.cpp.o
+[100%] Built target fmi
+[100%] Linking CXX shared module /Users/sumo/clangMacOS_M1/sumo/bin/liblibsumojni.jnilib
+ld: warning: ignoring duplicate libraries: '-lFOX-1.6', '-lGL', '-lGLU', '-lX11', '-lXcursor', '-lXext', '-lXfixes', '-lXft', '-lXi', '-lXrandr', '-lXrender', '-lbz2', '-ldl', '-lfontconfig', '-lfreetype', '-ljpeg', '-lpng', '-lpthread', '-ltiff', '-lz', '../foreign/PHEMlight/V5/cpp/libforeign_phemlight_V5.a', '../foreign/PHEMlight/cpp/libforeign_phemlight.a', '../foreign/tcpip/libforeign_tcpip.a', '../gui/libgui.a', '../mesosim/libmesosim.a', '../microsim/actions/libmicrosim_actions.a', '../microsim/cfmodels/libmicrosim_cfmodels.a', '../microsim/devices/libmicrosim_devices.a', '../microsim/engine/libmicrosim_engine.a', '../microsim/lcmodels/libmicrosim_lcmodels.a', '../microsim/libmicrosim.a', '../microsim/output/libmicrosim_output.a', '../microsim/traffic_lights/libmicrosim_traffic_lights.a', '../microsim/transportables/libmicrosim_transportables.a', '../microsim/trigger/libmicrosim_trigger.a', '../netload/libnetload.a', '../traci-server/libtraciserver.a', '../utils/common/libutils_common.a', '../utils/distribution/libutils_distribution.a', '../utils/emissions/libutils_emissions.a', '../utils/geom/libutils_geom.a', '../utils/handlers/libutils_handlers.a', '../utils/importio/libutils_importio.a', '../utils/iodevices/libutils_iodevices.a', '../utils/options/libutils_options.a', '../utils/shapes/libutils_shapes.a', '../utils/traction_wire/libutils_traction_wire.a', '../utils/vehicle/libutils_vehicle.a', '../utils/xml/libutils_xml.a', '/Users/sumo/clangMacOS_M1/sumo/bin/libsumoguistaticD.a'
+[100%] Linking CXX shared module /Users/sumo/clangMacOS_M1/sumo/bin/libsumocs.dylib
+ld: warning: ignoring duplicate libraries: '-lFOX-1.6', '-lGL', '-lGLU', '-lX11', '-lXcursor', '-lXext', '-lXfixes', '-lXft', '-lXi', '-lXrandr', '-lXrender', '-lbz2', '-ldl', '-lfontconfig', '-lfreetype', '-ljpeg', '-lpng', '-lpthread', '-ltiff', '-lz', '../foreign/PHEMlight/V5/cpp/libforeign_phemlight_V5.a', '../foreign/PHEMlight/cpp/libforeign_phemlight.a', '../foreign/tcpip/libforeign_tcpip.a', '../gui/libgui.a', '../mesosim/libmesosim.a', '../microsim/actions/libmicrosim_actions.a', '../microsim/cfmodels/libmicrosim_cfmodels.a', '../microsim/devices/libmicrosim_devices.a', '../microsim/engine/libmicrosim_engine.a', '../microsim/lcmodels/libmicrosim_lcmodels.a', '../microsim/libmicrosim.a', '../microsim/output/libmicrosim_output.a', '../microsim/traffic_lights/libmicrosim_traffic_lights.a', '../microsim/transportables/libmicrosim_transportables.a', '../microsim/trigger/libmicrosim_trigger.a', '../netload/libnetload.a', '../traci-server/libtraciserver.a', '../utils/common/libutils_common.a', '../utils/distribution/libutils_distribution.a', '../utils/emissions/libutils_emissions.a', '../utils/geom/libutils_geom.a', '../utils/handlers/libutils_handlers.a', '../utils/importio/libutils_importio.a', '../utils/iodevices/libutils_iodevices.a', '../utils/options/libutils_options.a', '../utils/shapes/libutils_shapes.a', '../utils/traction_wire/libutils_traction_wire.a', '../utils/vehicle/libutils_vehicle.a', '../utils/xml/libutils_xml.a', '/Users/sumo/clangMacOS_M1/sumo/bin/libsumoguistaticD.a'
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.11/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[100%] Built target libsumocs
+[100%] Linking CXX shared module /Users/sumo/clangMacOS_M1/sumo/bin/_libsumo.so
+ld: warning: ignoring duplicate libraries: '-lFOX-1.6', '-lGL', '-lGLU', '-lX11', '-lXcursor', '-lXext', '-lXfixes', '-lXft', '-lXi', '-lXrandr', '-lXrender', '-lbz2', '-ldl', '-lfontconfig', '-lfreetype', '-ljpeg', '-lpng', '-lpthread', '-ltiff', '-lz', '../foreign/PHEMlight/V5/cpp/libforeign_phemlight_V5.a', '../foreign/PHEMlight/cpp/libforeign_phemlight.a', '../foreign/tcpip/libforeign_tcpip.a', '../gui/libgui.a', '../mesosim/libmesosim.a', '../microsim/actions/libmicrosim_actions.a', '../microsim/cfmodels/libmicrosim_cfmodels.a', '../microsim/devices/libmicrosim_devices.a', '../microsim/engine/libmicrosim_engine.a', '../microsim/lcmodels/libmicrosim_lcmodels.a', '../microsim/libmicrosim.a', '../microsim/output/libmicrosim_output.a', '../microsim/traffic_lights/libmicrosim_traffic_lights.a', '../microsim/transportables/libmicrosim_transportables.a', '../microsim/trigger/libmicrosim_trigger.a', '../netload/libnetload.a', '../traci-server/libtraciserver.a', '../utils/common/libutils_common.a', '../utils/distribution/libutils_distribution.a', '../utils/emissions/libutils_emissions.a', '../utils/geom/libutils_geom.a', '../utils/handlers/libutils_handlers.a', '../utils/importio/libutils_importio.a', '../utils/iodevices/libutils_iodevices.a', '../utils/options/libutils_options.a', '../utils/shapes/libutils_shapes.a', '../utils/traction_wire/libutils_traction_wire.a', '../utils/vehicle/libutils_vehicle.a', '../utils/xml/libutils_xml.a', '/Users/sumo/clangMacOS_M1/sumo/bin/libsumoguistaticD.a'
+[100%] Built target libsumo
+[ERROR] No plugin found for prefix 'source' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (/Users/sumo/clangMacOS_M1/sumo/build/debug-clangMacOS_M1/m2), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+make[2]: *** [/Users/sumo/clangMacOS_M1/sumo/bin/liblibsumojni.jnilib] Error 1
+make[2]: *** Deleting file `/Users/sumo/clangMacOS_M1/sumo/bin/liblibsumojni.jnilib'
+make[1]: *** [src/libsumo/CMakeFiles/libsumojni.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /Users/sumo/clangMacOS_M1/sumo/src/netedit/GNEExternalRunner.cpp:47:
+/Users/sumo/clangMacOS_M1/sumo/src/netedit/GNEExternalRunner.h:68:11: warning: private field 'myPipe' is not used [-Wunused-private-field]
+   68 |     FILE* myPipe = nullptr;
+      |           ^
+1 warning generated.
+[100%] Linking CXX executable /Users/sumo/clangMacOS_M1/sumo/bin/neteditD
+ld: warning: ignoring duplicate libraries: '../foreign/eulerspiral/libforeign_eulerspiral.a', '../utils/foxtools/libutils_foxtools.a'
+[100%] Built target netedit
+make: *** [all] Error 2

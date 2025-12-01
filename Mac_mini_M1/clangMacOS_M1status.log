@@ -1,0 +1,15 @@
+Darwin_arm64_clangMacOS_M1 Mon Dec  1 00:10:01 CET 2025
+--
+clangMacOS_M1make.log
+make failed
+21 warnings
+--
+batchreport
+--
+clangMacOS_M1makealloptions.log
+make with all options failed
+22 warnings
+--
+clangMacOS_M1test.log
+Mon Dec  1 05:32:29 CET 2025
+--
