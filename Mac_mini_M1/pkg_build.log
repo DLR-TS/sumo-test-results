@@ -1,12 +1,1 @@
-usage: buildMacOSInstaller.py [-h] [-c FILE] [-C FILE] [--save-template FILE]
-                              (--create-framework-dir |
-                              --create-framework-pkg | --create-apps-dir |
-                              --create-apps-pkg | --create-installer-pkg |
-                              --create-installer-dmg) [--build-dir BUILD_DIR]
-                              [--framework-dir FRAMEWORK_DIR]
-                              [--framework-pkg-dir FRAMEWORK_PKG_DIR]
-                              [--apps-dir APPS_DIR]
-                              [--apps-pkg-dir APPS_PKG_DIR]
-                              [--installer-pkg-file INSTALLER_PKG_FILE]
-                              [--installer-dmg-file INSTALLER_DMG_FILE]
-buildMacOSInstaller.py: error: unrecognized arguments: /Users/sumo/clangMacOS_M1/sumo/build/clangMacOS_M1
+Error: delocate module is not installed. Please install it using 'pip install delocate'.
