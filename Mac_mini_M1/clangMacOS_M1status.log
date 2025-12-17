@@ -1,4 +1,4 @@
-Darwin_arm64_clangMacOS_M1 Tue Dec 16 00:10:00 CET 2025
+Darwin_arm64_clangMacOS_M1 Wed Dec 17 00:10:00 CET 2025
 --
 clangMacOS_M1make.log
 make failed
@@ -8,8 +8,8 @@ batchreport
 --
 clangMacOS_M1makealloptions.log
 make with all options failed
-26 warnings
+23 warnings
 --
 clangMacOS_M1test.log
-Tue Dec 16 05:34:53 CET 2025
+Wed Dec 17 05:33:20 CET 2025
 --
