@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+  <title>Texttest Batch Result Summary</title>
+  <style type="text/css">
+      <!--
+      body,td,th {
+      color: #000000;
+      font-size: 11px;
+      font-family: Helvetica;
+      }
+      h1 {
+      font-family: Helvetica;
+      margin-bottom: 0;
+      margin-top: 10;
+      padding-bottom: 0;
+      padding-top: 0;
+      bottom: 0%;
+      } 
+      h3 {
+      font-weight: bold;
+      font-family: Helvetica;
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+      bottom: 0%;
+      }
+      table.version_link {
+      border-width: 0;
+      }
+      table.version_link td {
+      border-width: 1;
+      }
+      table.version_link td.arrow_cell {
+      border-width: 0;
+      }
+      table.version_link td.cell_success {
+      background-color: #CEEFBD;
+      }
+      table.version_link td.cell_knownbug {
+      background-color: #FF9900;
+      }
+      table.version_link td.cell_performance {
+      background-color: #FFC6A5;
+      }
+      table.version_link td.cell_incomplete {
+      background-color: #8B1A1A;
+      }
+      table.version_link td.cell_failure {
+      background-color: #FF3118;
+      }
+      td.application_name, td.version_table {
+      }
+      tr.application_row {
+      }
+      -->
+  </style>
+
+  <body>
+    <h1 align="center">Test results</h1>
+<h3 align="center">(from test run 20Dec25rv1_25_0+0649-b896d3f72f7)</h3>
+      <center>
+	<br>
+        <table border="1" frame="void">
+          <tr>
+	    <td valign="top">
+	      <table border="0">
+              <!--Insert table here-->
+<tr class="application_row">
+  <td class="application_name"><h3>ACTIVITYGEN</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="activitygen/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>14</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=14
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>COMPLEX</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="complex/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>779</h3></td>
+    <td class="cell_knownbug"><h3>8</h3></td>
+    <td class="cell_failure"><h3>29</h3></td>
+    <td class="cell_incomplete"><h3>1</h3></td>
+    <td class="arrow_cell"><img src="images/arrow_up.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=777
+knownbug=8
+failure=31
+incomplete=1
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>DFROUTER</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="dfrouter/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>171</h3></td>
+    <td class="cell_knownbug"><h3>4</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=171
+knownbug=4
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>DUAROUTER</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="duarouter/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>677</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=677
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>JTRROUTER</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="jtrrouter/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>88</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=88
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>MAROUTER</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="marouter/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>106</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=106
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>NETCONVERT</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="netconvert/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>1579</h3></td>
+    <td class="cell_failure"><h3>3</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=1579
+failure=3
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>NETEDIT</h3></td>
+  <td class="version_table"></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="netedit/test_gui.html">gui</a></h3></td>
+    <td class="cell_failure"><h3>490</h3></td>
+    <td class="cell_incomplete"><h3>2300</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 14Sep20rv1_7_0+0079-f0e2b80c7a :
+failure=685
+incomplete=2105
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>NETEDITOUTPUT</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="neteditoutput/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>9291</h3></td>
+    <td class="cell_knownbug"><h3>419</h3></td>
+    <td class="cell_failure"><h3>49</h3></td>
+    <td class="cell_incomplete"><h3>1</h3></td>
+    <td class="arrow_cell"><img src="images/arrow_up.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=9211
+knownbug=510
+failure=47
+incomplete=1
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>NETGEN</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="netgen/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>114</h3></td>
+    <td class="cell_failure"><h3>1</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=114
+failure=1
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>OD2TRIPS</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="od2trips/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>159</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=159
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>POLYCONVERT</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="polyconvert/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>42</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=42
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>SUMO</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="sumo/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>4647</h3></td>
+    <td class="cell_knownbug"><h3>41</h3></td>
+    <td class="cell_failure"><h3>18</h3></td>
+    <td class="arrow_cell"><img src="images/arrow_up.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=4645
+knownbug=41
+failure=18
+"/></td>
+  </tr></table></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="sumo/test_gui.html">gui</a></h3></td>
+    <td class="cell_success"><h3>5</h3></td>
+    <td class="cell_knownbug"><h3>15</h3></td>
+    <td class="cell_failure"><h3>3593</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 22Feb23rv1_16_0+0596-1ab9327cd95 :
+success=5
+knownbug=15
+failure=3584
+"/></td>
+  </tr></table></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="sumo/test_gui.mac.html">gui.mac</a></h3></td>
+    <td class="cell_success"><h3>6</h3></td>
+    <td class="cell_knownbug"><h3>13</h3></td>
+    <td class="cell_failure"><h3>4272</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=6
+knownbug=13
+failure=4270
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>TOOLS</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="tools/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>1340</h3></td>
+    <td class="cell_knownbug"><h3>2</h3></td>
+    <td class="cell_failure"><h3>37</h3></td>
+    <td class="cell_incomplete"><h3>2</h3></td>
+    <td class="arrow_cell"><img src="images/red_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=1340
+knownbug=2
+failure=37
+incomplete=2
+"/></td>
+  </tr></table></td>
+</tr>
+<tr class="application_row">
+  <td class="application_name"><h3>TRACI</h3></td>
+  <td class="version_table"><table border="1" class="version_link"><tr>
+    <td><h3><a href="traci/test_default.html">default</a></h3></td>
+    <td class="cell_success"><h3>609</h3></td>
+    <td class="arrow_cell"><img src="images/green_arrow_across.png" title="Comparing to 19Dec25rv1_25_0+0620-b691eb40cf5 :
+success=609
+"/></td>
+  </tr></table></td>
+</tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+	<br>
+      </center>
+    <p align="center">
+      <!--Insert footer here-->
+(generated by sumo at 20Dec03:07)    </p>
+    </body>
+</html>
